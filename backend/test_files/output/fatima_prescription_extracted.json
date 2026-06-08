@@ -1,0 +1,31 @@
+{
+  "diseases": [
+    "Rheumatoid Arthritis",
+    "Hypothyroidism",
+    "Osteoporosis"
+  ],
+  "medications": [
+    {
+      "name": "Methotrexate",
+      "dose": "15mg",
+      "frequency": "once weekly"
+    },
+    {
+      "name": "Levothyroxine",
+      "dose": "50mcg",
+      "frequency": "once daily morning"
+    },
+    {
+      "name": "Calcium + Vitamin D",
+      "dose": "",
+      "frequency": "twice daily"
+    }
+  ],
+  "allergies": [
+    "Codeine"
+  ],
+  "vaccinations": [
+    "COVID-19 completed",
+    "Influenza 2024"
+  ]
+}

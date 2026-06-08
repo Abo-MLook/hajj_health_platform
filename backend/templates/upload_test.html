@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hajj Health Platform — Upload Test</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f0f4f8;
+      color: #1a202c;
+      min-height: 100vh;
+      padding: 40px 16px;
+    }
+
+    .page-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .page-header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #1a4731;
+      letter-spacing: -0.02em;
+    }
+    .page-header p {
+      margin-top: 6px;
+      color: #4a5568;
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      padding: 32px;
+      max-width: 640px;
+      margin: 0 auto 32px;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #718096;
+      margin-bottom: 10px;
+    }
+
+    /* Form fields */
+    label { display: block; font-size: 0.9rem; font-weight: 500; color: #2d3748; margin-bottom: 6px; }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid #cbd5e0;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #2d3748;
+      background: #fff;
+      transition: border-color 0.15s;
+    }
+    input[type="text"]:focus { outline: none; border-color: #2f855a; box-shadow: 0 0 0 3px rgba(47,133,90,0.12); }
+    input[type="text"]::placeholder { color: #a0aec0; }
+    select {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid #cbd5e0;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #2d3748;
+      background: #fff;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%234a5568' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    select:focus { outline: none; border-color: #2f855a; box-shadow: 0 0 0 3px rgba(47,133,90,0.12); }
+
+    .field { margin-bottom: 22px; }
+
+    /* Drop zone */
+    .drop-zone {
+      border: 2px dashed #cbd5e0;
+      border-radius: 10px;
+      padding: 36px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+    .drop-zone:hover, .drop-zone.drag-over {
+      border-color: #2f855a;
+      background: #f0fff4;
+    }
+    .drop-zone input[type="file"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+    }
+    .drop-icon { font-size: 2.2rem; margin-bottom: 10px; }
+    .drop-label { font-size: 0.95rem; color: #4a5568; }
+    .drop-label strong { color: #2f855a; }
+    .drop-hint { font-size: 0.8rem; color: #a0aec0; margin-top: 4px; }
+    .file-chosen {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #f0fff4;
+      border: 1px solid #c6f6d5;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.875rem;
+      color: #276749;
+      display: none;
+    }
+    .file-chosen .file-name { font-weight: 500; flex: 1; word-break: break-all; }
+    .file-chosen .remove-file {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #9ae6b4;
+      font-size: 1.1rem;
+      line-height: 1;
+      padding: 0;
+      transition: color 0.15s;
+    }
+    .file-chosen .remove-file:hover { color: #276749; }
+
+    /* Submit button */
+    .btn-submit {
+      width: 100%;
+      padding: 13px;
+      background: #276749;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, opacity 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .btn-submit:hover:not(:disabled) { background: #22543d; }
+    .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    /* Spinner */
+    .spinner {
+      width: 18px; height: 18px;
+      border: 2.5px solid rgba(255,255,255,0.4);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      display: none;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* No pilgrims notice */
+    .notice {
+      background: #fffbeb;
+      border: 1px solid #fbd38d;
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 0.875rem;
+      color: #744210;
+    }
+    .notice a { color: #b7791f; font-weight: 600; }
+
+    /* Error banner */
+    .error-banner {
+      background: #fff5f5;
+      border: 1px solid #fed7d7;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 0.875rem;
+      color: #c53030;
+      margin-bottom: 20px;
+      display: none;
+    }
+
+    /* Results card */
+    #results { display: none; }
+
+    .result-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .stat-box {
+      background: #f7fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .stat-box .stat-label { font-size: 0.75rem; color: #718096; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .stat-box .stat-value { font-size: 1.25rem; font-weight: 700; color: #1a202c; margin-top: 4px; }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .badge-pending    { background: #ebf8ff; color: #2b6cb0; }
+    .badge-approved   { background: #f0fff4; color: #276749; }
+    .badge-needs_review { background: #fffbeb; color: #744210; }
+    .badge-rejected   { background: #fff5f5; color: #c53030; }
+
+    .result-block { margin-bottom: 20px; }
+    .result-block-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: #718096;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .result-block-title .chevron { transition: transform 0.2s; font-style: normal; }
+    .result-block-title.collapsed .chevron { transform: rotate(-90deg); }
+
+    .result-box {
+      background: #f7fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 0.85rem;
+      color: #2d3748;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 260px;
+      overflow-y: auto;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      line-height: 1.6;
+    }
+    .result-box.collapsed { display: none; }
+
+    .profile-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .profile-item { background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 14px; }
+    .profile-item .pi-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: #718096; font-weight: 600; }
+    .profile-item .pi-value { font-size: 0.875rem; color: #2d3748; margin-top: 4px; word-break: break-word; }
+    .pi-value.empty { color: #a0aec0; font-style: italic; }
+
+    .divider { border: none; border-top: 1px solid #e2e8f0; margin: 22px 0; }
+
+    .file-link { font-size: 0.8rem; color: #2f855a; text-decoration: none; word-break: break-all; }
+    .file-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <div class="page-header">
+    <h1>&#9651; Hajj Health Platform</h1>
+    <p>Upload a medical document and view the full extraction pipeline results</p>
+  </div>
+
+  <!-- Upload form card -->
+  <div class="card">
+    <div class="error-banner" id="errorBanner"></div>
+
+    <form id="uploadForm" novalidate>
+      {% csrf_token %}
+
+      <div class="field">
+        <label for="patientName">Patient Full Name</label>
+        <input type="text" id="patientName" name="patient_name" placeholder="e.g. Omar Hassan Al-Zahrani" required />
+      </div>
+
+      <div class="field">
+        <div class="drop-zone" id="dropZone">
+          <input type="file" id="fileInput" name="file" accept=".pdf,.jpg,.jpeg,.png" />
+          <div class="drop-icon">&#128196;</div>
+          <div class="drop-label"><strong>Click to browse</strong> or drag &amp; drop here</div>
+          <div class="drop-hint">PDF, JPG, JPEG, PNG &mdash; max 10 MB</div>
+        </div>
+        <div class="file-chosen" id="fileChosen">
+          <span>&#10003;</span>
+          <span class="file-name" id="fileName"></span>
+          <button type="button" class="remove-file" id="removeFile" title="Remove">&#10005;</button>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-submit" id="submitBtn" disabled>
+        <div class="spinner" id="spinner"></div>
+        <span id="submitLabel">Drop a file to begin</span>
+      </button>
+    </form>
+  </div>
+
+  <!-- Results card -->
+  <div class="card" id="results">
+    <p class="section-title">Pipeline Results</p>
+
+    <div class="result-grid">
+      <div class="stat-box">
+        <div class="stat-label">Confidence Score</div>
+        <div class="stat-value" id="resScore">—</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Document Status</div>
+        <div class="stat-value" id="resStatus">—</div>
+      </div>
+      <div class="stat-box" style="grid-column:1/-1">
+        <div class="stat-label">Pilgrim</div>
+        <div class="stat-value" style="font-size:1rem" id="resPilgrim">—</div>
+      </div>
+    </div>
+
+    <div class="result-block">
+      <div class="stat-box" style="margin-bottom:10px">
+        <div class="stat-label">File uploaded to</div>
+        <a class="file-link" id="resFileUrl" href="#" target="_blank"></a>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <div class="result-block">
+      <div class="result-block-title" id="toggleText">
+        <em class="chevron">&#9660;</em> Extracted Text Preview
+      </div>
+      <div class="result-box" id="resText">(no text extracted)</div>
+    </div>
+
+    <div class="result-block">
+      <div class="result-block-title" id="toggleJson">
+        <em class="chevron">&#9660;</em> Structured JSON
+      </div>
+      <div class="result-box" id="resJson">(no structured data)</div>
+    </div>
+
+    <hr class="divider" />
+
+    <p class="section-title" style="margin-bottom:14px">Unified Health Profile</p>
+    <div class="profile-grid" id="profileGrid"></div>
+  </div>
+
+<script>
+  const dropZone    = document.getElementById('dropZone');
+  const fileInput   = document.getElementById('fileInput');
+  const fileChosen  = document.getElementById('fileChosen');
+  const fileName    = document.getElementById('fileName');
+  const removeFile  = document.getElementById('removeFile');
+  const submitBtn   = document.getElementById('submitBtn');
+  const submitLabel = document.getElementById('submitLabel');
+  const spinner     = document.getElementById('spinner');
+  const errorBanner = document.getElementById('errorBanner');
+  const form        = document.getElementById('uploadForm');
+  const patientName = document.getElementById('patientName');
+
+  function updateSubmitState() {
+    const hasName = patientName && patientName.value.trim().length > 0;
+    const hasFile = fileInput.files && fileInput.files.length > 0;
+    submitBtn.disabled = !(hasName && hasFile);
+    if (hasName && hasFile) {
+      submitLabel.textContent = 'Run Pipeline';
+    } else if (!hasName) {
+      submitLabel.textContent = 'Enter patient name to continue';
+    } else {
+      submitLabel.textContent = 'Drop a file to begin';
+    }
+  }
+
+  function setFile(file) {
+    if (!file) return;
+    fileName.textContent = file.name + ' (' + (file.size / 1024).toFixed(1) + ' KB)';
+    fileChosen.style.display = 'flex';
+    updateSubmitState();
+  }
+
+  function clearFile() {
+    fileInput.value = '';
+    fileChosen.style.display = 'none';
+    updateSubmitState();
+  }
+
+  patientName && patientName.addEventListener('input', updateSubmitState);
+  fileInput.addEventListener('change', () => setFile(fileInput.files[0]));
+  removeFile.addEventListener('click', clearFile);
+
+  dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+  dropZone.addEventListener('drop', e => {
+    e.preventDefault();
+    dropZone.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) {
+      const dt = new DataTransfer();
+      dt.items.add(file);
+      fileInput.files = dt.files;
+      setFile(file);
+    }
+  });
+
+  // Collapsible sections
+  function makeToggle(titleId, boxId) {
+    const title = document.getElementById(titleId);
+    const box   = document.getElementById(boxId);
+    title.addEventListener('click', () => {
+      const collapsed = box.classList.toggle('collapsed');
+      title.classList.toggle('collapsed', collapsed);
+    });
+  }
+  makeToggle('toggleText', 'resText');
+  makeToggle('toggleJson', 'resJson');
+
+  function badge(status) {
+    return `<span class="badge badge-${status}">${status.replace('_', ' ')}</span>`;
+  }
+
+  function profileItem(label, value) {
+    const empty = !value;
+    return `<div class="profile-item">
+      <div class="pi-label">${label}</div>
+      <div class="pi-value${empty ? ' empty' : ''}">${value || 'not recorded'}</div>
+    </div>`;
+  }
+
+  form && form.addEventListener('submit', async e => {
+    e.preventDefault();
+    errorBanner.style.display = 'none';
+
+    submitBtn.disabled = true;
+    spinner.style.display = 'block';
+    submitLabel.textContent = 'Running pipeline…';
+
+    const data = new FormData(form);
+
+    try {
+      const resp = await fetch('/', { method: 'POST', body: data });
+      const json = await resp.json();
+
+      if (!resp.ok || json.error) {
+        errorBanner.textContent = json.error || 'Something went wrong.';
+        errorBanner.style.display = 'block';
+        return;
+      }
+
+      // Populate results
+      document.getElementById('resPilgrim').textContent = json.pilgrim_name || '—';
+
+      const score = json.confidence_score;
+      document.getElementById('resScore').textContent =
+        score !== null && score !== undefined ? score + ' / 100' : '—';
+
+      document.getElementById('resStatus').innerHTML = badge(json.status || 'pending');
+
+      const fileUrlEl = document.getElementById('resFileUrl');
+      fileUrlEl.href = json.file_url;
+      fileUrlEl.textContent = json.file_url;
+
+      const resText = document.getElementById('resText');
+      resText.textContent = json.extracted_text_preview || '(no text was extracted from this file)';
+
+      const resJson = document.getElementById('resJson');
+      resJson.textContent = json.extracted_json
+        ? JSON.stringify(json.extracted_json, null, 2)
+        : '(AI extraction returned no data)';
+
+      const profileGrid = document.getElementById('profileGrid');
+      if (json.health_profile) {
+        const hp = json.health_profile;
+        profileGrid.innerHTML =
+          profileItem('Status', hp.status ? `<span class="badge badge-${hp.status}">${hp.status.replace('_',' ')}</span>` : null) +
+          profileItem('Confidence', hp.confidence_score !== undefined ? hp.confidence_score + ' / 100' : null) +
+          profileItem('Diseases', hp.diseases) +
+          profileItem('Medications', hp.medications) +
+          profileItem('Allergies', hp.allergies) +
+          profileItem('Vaccinations', hp.vaccinations);
+      } else {
+        profileGrid.innerHTML = '<p style="color:#a0aec0;font-size:0.875rem">No health profile found for this pilgrim.</p>';
+      }
+
+      document.getElementById('results').style.display = 'block';
+      document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    } catch (err) {
+      errorBanner.textContent = 'Network error — is the server running?';
+      errorBanner.style.display = 'block';
+    } finally {
+      submitBtn.disabled = false;
+      spinner.style.display = 'none';
+      submitLabel.textContent = 'Run Pipeline Again';
+    }
+  });
+</script>
+
+</body>
+</html>

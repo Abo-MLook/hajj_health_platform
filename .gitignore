@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+
+# Environment secrets
+.env
+backend/.env
+
+# Django database
+db.sqlite3
+backend/db.sqlite3
+
+# Uploaded media and temporary files
+uploads/
+backend/uploads/
+backend/media/
+
+# Python cache files
+__pycache__/
+*.pyc
+backend/**/__pycache__/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+.claude/
+.gemini/
+antigravity/
