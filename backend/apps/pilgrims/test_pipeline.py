@@ -115,3 +115,67 @@ class RunPipelineTests(TestCase):
         mock_extract_json.assert_not_called()
         mock_score.assert_not_called()
         mock_merge.assert_not_called()
+
+    @patch("apps.pilgrims.pipeline.review_agent")
+    @patch("apps.pilgrims.pipeline.merge_health_profile")
+    @patch("apps.pilgrims.pipeline.score_document")
+    @patch("apps.pilgrims.pipeline.extract_json_from_document")
+    @patch("apps.pilgrims.pipeline.extract_text_from_document")
+    def test_review_agent_called_for_image_document(
+        self, mock_extract_text, mock_extract_json, mock_score, mock_merge, mock_agent
+    ):
+        """Pipeline calls review_agent when confidence_score is below 75 (image)."""
+        mock_merge.return_value.status = "pending"
+
+        def fake_score(doc):
+            doc.confidence_score = 50
+            doc.save(update_fields=["confidence_score", "updated_at"])
+
+        mock_score.side_effect = fake_score
+
+        run_pipeline(self.document)
+
+        mock_agent.assert_called_once_with(self.document)
+
+    @patch("apps.pilgrims.pipeline.review_agent")
+    @patch("apps.pilgrims.pipeline.merge_health_profile")
+    @patch("apps.pilgrims.pipeline.score_document")
+    @patch("apps.pilgrims.pipeline.extract_json_from_document")
+    @patch("apps.pilgrims.pipeline.extract_text_from_document")
+    def test_review_agent_not_called_for_pdf_document(
+        self, mock_extract_text, mock_extract_json, mock_score, mock_merge, mock_agent
+    ):
+        """Pipeline skips review_agent when confidence_score is 75 or above (PDF)."""
+        mock_merge.return_value.status = "pending"
+
+        def fake_score(doc):
+            doc.confidence_score = 75
+            doc.save(update_fields=["confidence_score", "updated_at"])
+
+        mock_score.side_effect = fake_score
+
+        run_pipeline(self.document)
+
+        mock_agent.assert_not_called()
+
+    @patch("apps.pilgrims.pipeline.review_agent")
+    @patch("apps.pilgrims.pipeline.merge_health_profile")
+    @patch("apps.pilgrims.pipeline.score_document")
+    @patch("apps.pilgrims.pipeline.extract_json_from_document")
+    @patch("apps.pilgrims.pipeline.extract_text_from_document")
+    def test_merge_always_runs_after_agent(
+        self, mock_extract_text, mock_extract_json, mock_score, mock_merge, mock_agent
+    ):
+        """merge_health_profile runs regardless of whether review_agent was called."""
+        mock_merge.return_value.status = "pending"
+
+        def fake_score(doc):
+            doc.confidence_score = 50
+            doc.save(update_fields=["confidence_score", "updated_at"])
+
+        mock_score.side_effect = fake_score
+
+        run_pipeline(self.document)
+
+        mock_agent.assert_called_once()
+        mock_merge.assert_called_once_with(self.document.pilgrim)

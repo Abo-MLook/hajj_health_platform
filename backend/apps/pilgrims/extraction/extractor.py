@@ -44,20 +44,19 @@ def extract_text_from_document(document):
     """Detect a MedicalDocument's file type, extract its raw text,
     save it to MedicalDocument.extracted_text, and return the text.
 
-    Works with local filesystem storage and cloud storage (Cloudinary).
-    For cloud storage where download is restricted, if extracted_text is
-    already populated (pre-extracted at upload time in the view), this
-    function keeps the existing text rather than overwriting with empty.
+    If extracted_text is already populated (pre-extracted in the view
+    before Cloudinary upload), reuse it directly — no re-download needed.
     """
+    if document.extracted_text and document.extracted_text.strip():
+        logger.debug(
+            "Document %s already has extracted text — skipping re-extraction.",
+            document.pk,
+        )
+        return document.extracted_text
+
     try:
         file_path, is_temp = _local_path(document)
     except Exception:
-        if document.extracted_text:
-            logger.debug(
-                "Cannot download document %s from cloud storage — keeping pre-extracted text.",
-                document.pk,
-            )
-            return document.extracted_text
         logger.warning(
             "Cannot download document %s from cloud storage and no pre-extracted text available.",
             document.pk,

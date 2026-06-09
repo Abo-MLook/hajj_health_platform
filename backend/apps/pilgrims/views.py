@@ -27,8 +27,6 @@ def _handle_upload(request):
     patient_name = request.POST.get("patient_name", "").strip()
     uploaded_file = request.FILES.get("file")
 
-    if not patient_name:
-        return JsonResponse({"error": "Please enter the patient's full name."}, status=400)
     if not uploaded_file:
         return JsonResponse({"error": "Please select a file to upload."}, status=400)
 
@@ -39,10 +37,11 @@ def _handle_upload(request):
             status=400,
         )
 
-    # Each upload creates a new pilgrim with a unique auto-generated passport number
+    # Each upload creates a new pilgrim with a unique auto-generated passport number.
+    # Use typed name as placeholder; will be overwritten by AI-extracted name if blank.
     passport_number = f"AUTO-{uuid.uuid4().hex[:8].upper()}"
     pilgrim = Pilgrim.objects.create(
-        full_name=patient_name,
+        full_name=patient_name or f"Patient-{passport_number[-6:]}",
         passport_number=passport_number,
     )
 
@@ -65,6 +64,13 @@ def _handle_upload(request):
 
     # Signal ran synchronously — document already has pipeline results
     document.refresh_from_db()
+
+    # If the user didn't type a name, use the one Gemini extracted from the document
+    if not patient_name and document.extracted_json:
+        extracted_name = (document.extracted_json.get("patient_name") or "").strip()
+        if extracted_name:
+            pilgrim.full_name = extracted_name
+            pilgrim.save(update_fields=["full_name"])
 
     health_profile_data = None
     try:

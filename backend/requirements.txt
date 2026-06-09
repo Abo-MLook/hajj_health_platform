@@ -17,8 +17,9 @@ pdfplumber==0.11.9          # PDF text
 pytesseract==0.3.13         # image OCR (requires Tesseract installed)
 pillow==12.2.0              # image handling
 
-# AI structured extraction
-google-generativeai==0.8.6  # Gemini
+# AI structured extraction (Groq — https://groq.com)
+openai==2.41.0             # main extraction via Groq's OpenAI-compatible endpoint
+groq==1.4.0                # review agent (native Groq SDK)
 
 # QR code
 qrcode==8.2                 # generate

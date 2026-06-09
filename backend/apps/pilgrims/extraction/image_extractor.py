@@ -1,13 +1,12 @@
 import logging
 import os
 import shutil
+import subprocess
 
 import pytesseract
 from PIL import Image
 
 logger = logging.getLogger(__name__)
-
-OCR_LANGUAGES = "ara+eng"
 
 # Fallback path for Windows installs where the Tesseract installer
 # doesn't add itself to PATH (a common issue with the UB-Mannheim build).
@@ -15,6 +14,26 @@ WINDOWS_FALLBACK_TESSERACT_CMD = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 if not shutil.which("tesseract") and os.path.isfile(WINDOWS_FALLBACK_TESSERACT_CMD):
     pytesseract.pytesseract.tesseract_cmd = WINDOWS_FALLBACK_TESSERACT_CMD
+
+
+def _get_ocr_languages():
+    """Return the best available language string for Tesseract.
+    Uses ara+eng if Arabic is installed, falls back to eng only.
+    """
+    try:
+        result = subprocess.run(
+            ["tesseract", "--list-langs"],
+            capture_output=True, text=True, timeout=5
+        )
+        langs = result.stdout + result.stderr
+        if "ara" in langs:
+            return "ara+eng"
+    except Exception:
+        pass
+    return "eng"
+
+
+OCR_LANGUAGES = _get_ocr_languages()
 
 
 def extract_text_from_image(file_path):

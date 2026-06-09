@@ -59,3 +59,34 @@ class ExtractTextFromDocumentTests(TestCase):
         self.assertEqual(result, "extracted image text")
         document.refresh_from_db()
         self.assertEqual(document.extracted_text, "extracted image text")
+
+    @patch("apps.pilgrims.extraction.extractor.extract_text_from_pdf")
+    @patch("apps.pilgrims.extraction.extractor.extract_text_from_image")
+    def test_skips_extraction_when_text_already_present(self, mock_image, mock_pdf):
+        """If extracted_text is already populated, skip re-extraction entirely."""
+        document = MedicalDocument.objects.create(
+            pilgrim=self.pilgrim,
+            file=SimpleUploadedFile("scan.jpg", b"fake image bytes", content_type="image/jpeg"),
+            extracted_text="pre-extracted text from view",
+        )
+
+        result = extract_text_from_document(document)
+
+        mock_image.assert_not_called()
+        mock_pdf.assert_not_called()
+        self.assertEqual(result, "pre-extracted text from view")
+
+    @patch("apps.pilgrims.extraction.extractor.extract_text_from_pdf")
+    def test_extracts_when_text_is_empty_string(self, mock_extract_pdf):
+        """Empty string should trigger re-extraction, not count as pre-extracted."""
+        mock_extract_pdf.return_value = "fresh extraction"
+        document = MedicalDocument.objects.create(
+            pilgrim=self.pilgrim,
+            file=SimpleUploadedFile("report.pdf", b"%PDF-1.4", content_type="application/pdf"),
+            extracted_text="",
+        )
+
+        result = extract_text_from_document(document)
+
+        mock_extract_pdf.assert_called_once()
+        self.assertEqual(result, "fresh extraction")

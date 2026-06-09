@@ -1,5 +1,6 @@
 import logging
 
+from .agent import review_agent
 from .extraction.confidence import score_document
 from .extraction.extractor import extract_text_from_document
 from .extraction.json_extractor import extract_json_from_document
@@ -24,6 +25,10 @@ def run_pipeline(document):
     extract_text_from_document(document)
     extract_json_from_document(document)
     score_document(document)
+
+    if document.confidence_score < 75:
+        review_agent(document)
+
     health_profile = merge_health_profile(document.pilgrim)
 
     document.refresh_from_db()

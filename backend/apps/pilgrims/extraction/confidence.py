@@ -1,5 +1,3 @@
-import os
-
 CONFIDENCE_QR_VERIFIED = 100
 CONFIDENCE_PDF = 75
 CONFIDENCE_IMAGE = 50
@@ -13,11 +11,13 @@ def calculate_confidence_score(document):
 
     QR-verified documents (Stage 8) will score highest, clear PDFs score
     medium/high, and images (OCR-based, more error-prone) score medium.
+    Uses document.file_type (original extension) because cloud storage
+    (Cloudinary) strips extensions from stored filenames.
     """
-    extension = os.path.splitext(document.file.name)[1].lower()
-    if extension in PDF_EXTENSIONS:
+    file_type = (document.file_type or "").lower().lstrip(".")
+    if file_type == "pdf":
         return CONFIDENCE_PDF
-    if extension in IMAGE_EXTENSIONS:
+    if file_type in {"jpg", "jpeg", "png"}:
         return CONFIDENCE_IMAGE
     return 0
 

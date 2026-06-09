@@ -284,11 +284,6 @@
       {% csrf_token %}
 
       <div class="field">
-        <label for="patientName">Patient Full Name</label>
-        <input type="text" id="patientName" name="patient_name" placeholder="e.g. Omar Hassan Al-Zahrani" required />
-      </div>
-
-      <div class="field">
         <div class="drop-zone" id="dropZone">
           <input type="file" id="fileInput" name="file" accept=".pdf,.jpg,.jpeg,.png" />
           <div class="drop-icon">&#128196;</div>
@@ -368,19 +363,11 @@
   const spinner     = document.getElementById('spinner');
   const errorBanner = document.getElementById('errorBanner');
   const form        = document.getElementById('uploadForm');
-  const patientName = document.getElementById('patientName');
 
   function updateSubmitState() {
-    const hasName = patientName && patientName.value.trim().length > 0;
     const hasFile = fileInput.files && fileInput.files.length > 0;
-    submitBtn.disabled = !(hasName && hasFile);
-    if (hasName && hasFile) {
-      submitLabel.textContent = 'Run Pipeline';
-    } else if (!hasName) {
-      submitLabel.textContent = 'Enter patient name to continue';
-    } else {
-      submitLabel.textContent = 'Drop a file to begin';
-    }
+    submitBtn.disabled = !hasFile;
+    submitLabel.textContent = hasFile ? 'Run Pipeline' : 'Drop a file to begin';
   }
 
   function setFile(file) {
@@ -396,7 +383,6 @@
     updateSubmitState();
   }
 
-  patientName && patientName.addEventListener('input', updateSubmitState);
   fileInput.addEventListener('change', () => setFile(fileInput.files[0]));
   removeFile.addEventListener('click', clearFile);
 

@@ -38,9 +38,12 @@ class ScoreDocumentTests(TestCase):
         self.pilgrim = Pilgrim.objects.create(full_name="Test Pilgrim", passport_number="P-CONF-1")
 
     def _make_document(self, filename, content_type, extracted_text="", extracted_json=None):
+        ext = filename.rsplit(".", 1)[-1].lower() if "." in filename else ""
         return MedicalDocument.objects.create(
             pilgrim=self.pilgrim,
             file=SimpleUploadedFile(filename, b"fake content", content_type=content_type),
+            original_filename=filename,
+            file_type=ext,
             extracted_text=extracted_text,
             extracted_json=extracted_json,
         )

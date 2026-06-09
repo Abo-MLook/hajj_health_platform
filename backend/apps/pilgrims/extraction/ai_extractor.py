@@ -2,22 +2,23 @@ import json
 import logging
 import os
 
-import google.generativeai as genai
+from openai import OpenAI
 
 logger = logging.getLogger(__name__)
 
-GEMINI_MODEL_NAME = "gemini-3.5-flash"
+DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile"
 
 EXTRACTION_PROMPT = """You are a medical data extraction assistant for a Hajj health platform.
 
 Read the medical document text below and extract structured data as JSON
 with exactly these keys:
+- "patient_name": the full name of the patient as written in the document (string, or null if not found)
 - "diseases": a list of chronic disease names (strings)
 - "medications": a list of objects, each with "name", "dose", and "frequency"
 - "allergies": a list of allergy names (strings)
 - "vaccinations": a list of vaccination names (strings)
 
-If a field is not mentioned in the text, return an empty list for it.
+If a field is not mentioned in the text, return null for patient_name or an empty list for the others.
 Respond with ONLY the JSON object — no explanation, no markdown formatting.
 
 Document text:
@@ -27,12 +28,11 @@ Document text:
 """
 
 
-def _get_model():
-    api_key = os.environ.get("GEMINI_API_KEY")
+def _get_client():
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise RuntimeError("GEMINI_API_KEY is not set in the environment.")
-    genai.configure(api_key=api_key)
-    return genai.GenerativeModel(GEMINI_MODEL_NAME)
+        raise RuntimeError("GROQ_API_KEY is not set in the environment.")
+    return OpenAI(api_key=api_key, base_url="https://api.groq.com/openai/v1")
 
 
 def _parse_json_response(raw_response):
@@ -46,18 +46,24 @@ def _parse_json_response(raw_response):
 
 
 def extract_structured_data(raw_text):
-    """Send raw medical document text to Gemini and return structured medical data.
+    """Send raw medical document text to Grok (xAI) and return structured medical data.
 
-    Returns a dict with keys: diseases, medications, allergies, vaccinations.
-    Returns None if the AI call fails or the response isn't valid JSON.
+    Returns a dict with keys: patient_name, diseases, medications, allergies, vaccinations.
+    Returns None if the API call fails or the response isn't valid JSON.
     """
     if not raw_text or not raw_text.strip():
         return None
 
     try:
-        model = _get_model()
-        response = model.generate_content(EXTRACTION_PROMPT.format(text=raw_text))
-        return _parse_json_response(response.text)
+        client = _get_client()
+        model_name = os.environ.get("GROQ_MODEL", DEFAULT_GROQ_MODEL)
+        response = client.chat.completions.create(
+            model=model_name,
+            messages=[
+                {"role": "user", "content": EXTRACTION_PROMPT.format(text=raw_text)}
+            ],
+        )
+        return _parse_json_response(response.choices[0].message.content)
     except Exception:
-        logger.exception("Failed to extract structured data via Gemini")
+        logger.exception("Failed to extract structured data via Groq")
         return None
