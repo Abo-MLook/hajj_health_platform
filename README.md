@@ -111,7 +111,7 @@ The backend architecture consists of three key Django models:
 
 3.  **Install Dependencies:**
     ```bash
-    pip install -r backend/requirements.txt
+    pip install -r requirements.txt
     ```
 
 4.  **Configure Environment Variables:**
