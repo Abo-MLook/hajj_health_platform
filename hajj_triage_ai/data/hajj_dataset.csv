@@ -1,0 +1,1001 @@
+Fullname,Nationality,Gender,Passport_Number,Age,BMI,Systolic_BP,Diastolic_BP,Total_Cholesterol,HDL_Cholesterol,Num_Critical_Diseases,ICD_E08_E13_Diabetes,ICD_I10_I15_Hypertension,ICD_I20_I50_HeartDisease,ICD_J40_J47_Respiratory,ICD_N18_KidneyDisease,Smoker,Needs_Walking_Assist,Uses_Oxygen,Takes_Diuretics,Takes_Beta_Blockers,CVD_Risk_Score,Triage_Category
+Rachel Smith,Solomon Islands,F,3472756356125,85,15.7,146,94,236,62,3,1,1,0,1,0,0,0,0,0,0,35.0,Red
+Michelle Anderson,Ukraine,F,0771816457394,63,24.8,155,84,270,58,2,1,1,0,0,0,0,0,0,0,0,30.0,Red
+Megan Willis,Niger,M,6873534353317,38,32.2,123,81,211,44,0,0,0,0,0,0,1,0,0,0,0,10.0,Green
+Andrea Carey,Angola,F,1542377208652,19,24.1,110,84,186,34,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Bonnie Adams,Taiwan,M,3725774222874,65,35.8,158,87,263,60,2,1,1,0,0,0,0,0,0,0,0,32.5,Red
+Hannah Watts,Cambodia,F,7671454720016,46,20.8,113,72,274,72,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Jesse Krause,Chile,F,7287200789048,77,17.9,121,88,199,72,1,1,0,0,0,0,0,0,0,0,0,22.5,Red
+Scott Wilkins,Chile,F,6724078177757,38,26.9,108,66,137,36,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Erica Moss,United Kingdom,F,7762185172998,50,23.1,130,84,236,36,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Stacey Alexander,Togo,F,6760402054332,47,17.4,130,72,246,44,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Breanna Hansen,Malawi,M,6600008185200,58,30.9,131,80,213,58,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Linda Jones,Grenada,F,2247657593631,87,21.2,136,90,201,58,1,1,0,0,0,0,0,0,0,0,0,35.0,Red
+Christine Nelson,Central African Republic,F,6334622081333,60,27.5,124,81,217,39,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Diane Stewart,Kuwait,F,4614499488582,93,23.4,151,91,150,51,2,1,1,0,0,0,0,0,0,1,0,37.5,Red
+Trevor Martin,Somalia,F,0235957926732,35,33.7,152,89,157,70,2,0,1,1,0,0,0,0,0,1,1,2.5,Orange
+Jamie Frey,Anguilla,F,0642360460263,66,21.5,141,94,238,54,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Andrew Owens,Sweden,M,6687942734640,63,29.5,142,92,238,56,2,0,1,1,0,0,0,0,0,0,0,17.5,Orange
+Angela Bonilla,Germany,F,8101917311394,63,22.7,121,82,183,40,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Elizabeth Huang,Norfolk Island,M,0551636412045,63,35.6,143,87,162,44,2,1,1,0,0,0,0,0,0,1,0,22.5,Red
+Destiny Brooks,Australia,F,1922072093232,76,40.0,122,94,205,63,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Adam Castaneda,Honduras,F,6346276645168,51,23.1,156,95,253,63,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Anthony Andrade,Belgium,M,8106309777741,40,44.4,153,88,147,56,1,0,1,0,0,0,0,0,0,0,0,5.0,Orange
+Hunter Mora,Belarus,F,9466103543546,88,19.1,134,89,238,74,1,0,1,0,0,0,1,0,0,1,0,32.5,Red
+Charlotte Lewis,Iceland,F,8161476454550,71,21.0,121,90,161,47,1,0,0,0,0,1,0,0,0,0,0,15.0,Orange
+Paul Johnson,Antigua and Barbuda,F,5464185284719,60,25.4,153,92,180,52,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Laura Chapman,India,M,4426496976197,60,23.8,120,95,226,40,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Kevin Simon,Mauritania,F,0935357095228,61,15.8,125,92,255,37,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+David Abbott,Marshall Islands,F,9632502044360,79,33.3,147,90,179,54,2,1,1,0,0,0,0,0,0,1,0,30.0,Red
+Megan Smith,Burkina Faso,M,9125773931151,25,19.9,129,66,179,38,1,0,1,0,0,0,0,0,0,0,0,5.0,Green
+Jennifer Ortiz,Philippines,F,5541914167755,27,51.5,150,81,189,42,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Christina Harmon,Angola,M,8923135082531,52,33.7,135,91,226,73,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Ryan Edwards,Mauritania,M,5676742988804,60,21.4,156,93,177,56,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Laura Jones,Luxembourg,M,6512936606217,34,42.1,126,85,142,53,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+David Wheeler,Ireland,M,1315403478905,55,17.9,153,88,243,55,2,0,1,0,0,1,0,0,0,1,0,20.0,Orange
+Ray Munoz,Gambia,M,5937810228766,66,33.7,122,91,245,48,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Pamela Brady,France,M,6271966407446,53,33.0,152,80,151,30,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Daniel Carlson,Jersey,M,1679252497020,64,32.0,155,86,270,71,3,1,1,0,1,0,0,0,0,0,0,27.5,Red
+Jason Martinez,Bahrain,F,5368591815218,42,22.5,112,68,201,54,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Sara Jensen,Cambodia,M,2696453120167,48,23.2,103,84,271,69,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Ryan Baker,Bolivia,F,7496146187423,95,37.5,142,95,241,60,1,0,1,0,0,0,0,0,0,1,0,40.0,Red
+Brian Turner,Kazakhstan,F,7867954426828,54,24.5,144,91,232,48,1,0,1,0,0,0,1,0,0,1,0,20.0,Orange
+David Payne,Romania,F,9414079115625,40,33.6,148,93,163,74,2,0,1,0,0,1,0,0,0,0,0,2.5,Orange
+Christopher Salas,Wallis and Futuna,M,5351299128322,37,36.8,138,81,166,64,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jeffrey Huffman,Jamaica,F,5876499666882,65,36.9,123,92,249,68,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Christine Stevens,Svalbard & Jan Mayen Islands,F,2697396765422,20,38.8,125,94,190,70,1,0,1,0,0,0,0,0,0,0,0,1.0,Green
+Brittany Mendez,United Arab Emirates,M,8059279045900,51,28.9,125,95,276,48,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Michele Edwards,Marshall Islands,M,6340449174660,27,32.0,147,82,200,64,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Louis Ramirez,Jersey,M,4319116161960,69,30.3,124,80,232,36,0,0,0,0,0,0,1,0,0,0,0,27.5,Red
+Kevin Atkinson,Germany,M,8409799315074,36,41.8,122,85,207,49,1,0,0,1,0,0,1,0,0,0,1,10.0,Orange
+Nicole Doyle,Saint Vincent and the Grenadines,F,5153689455342,33,27.8,125,82,170,45,1,0,0,0,0,1,0,0,0,0,0,1.0,Green
+Samuel Graham,Mauritania,M,4277851972312,55,24.4,139,94,244,31,0,0,0,0,0,0,0,0,0,0,0,22.5,Orange
+Ashley Stevens,Panama,M,3085942821811,48,33.5,147,91,178,46,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Albert George,Brazil,F,1982938012418,51,29.9,151,85,151,34,3,1,1,1,0,0,0,0,0,1,1,22.5,Orange
+Jerry Watkins,Svalbard & Jan Mayen Islands,M,7798520534473,57,24.1,157,84,203,62,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+George Hill,India,F,2726937877611,36,29.4,124,73,180,61,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Arthur Walker,Korea,M,8119392406818,65,33.7,131,91,261,55,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+Brittany Johnson,Switzerland,M,4935578548370,49,21.1,118,84,174,67,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Taylor White,United States of America,M,0748885114589,32,19.7,116,83,166,64,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Joshua Turner,Grenada,M,2690612923323,35,21.0,112,73,151,67,1,0,1,0,0,0,1,0,0,0,0,5.0,Green
+George Wright,Niger,F,8335579730907,63,49.3,123,80,223,73,0,0,0,0,0,0,0,0,0,0,0,10.0,Orange
+Joseph Ramirez,Kuwait,M,4082961292560,50,21.2,102,65,237,44,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Evan Bowers,Hong Kong,M,8265052727134,81,23.7,136,94,198,71,1,1,0,0,0,0,0,0,0,0,0,27.5,Red
+Amanda Duffy,Niger,M,4306225422310,49,26.3,109,78,238,67,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Christopher Austin,Micronesia,F,2017599609963,61,32.4,120,83,165,36,1,0,0,1,0,0,0,0,0,0,1,15.0,Orange
+Christopher Jones,Indonesia,M,1908786148901,79,16.3,158,90,183,75,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+David Dixon,Senegal,F,6231573350825,63,32.8,134,82,240,66,2,0,0,1,1,0,1,0,0,0,1,20.0,Orange
+Angela Wells,Costa Rica,M,9116077294950,22,32.5,123,85,159,58,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Jonathan Higgins,Kuwait,F,4310538143770,40,42.5,135,89,176,49,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Marie Hayes,Palau,M,1159393140240,86,19.3,124,89,207,50,1,0,0,0,0,1,0,0,0,0,0,25.0,Red
+Jesse Brewer,Togo,M,6889381100653,56,24.8,139,82,210,42,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Taylor Huff,South Africa,F,5465599134638,51,34.1,132,88,227,75,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Courtney Rodriguez,Syrian Arab Republic,F,5710499122132,54,28.9,140,91,157,34,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Jennifer Green,Austria,F,0815852389919,29,32.3,120,83,213,41,0,0,0,0,0,0,1,0,0,0,0,10.0,Green
+Michelle Melendez MD,Norfolk Island,M,8311114639485,45,14.6,106,76,234,59,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Christina Collins,Saint Vincent and the Grenadines,F,3258471048169,42,42.3,126,82,192,49,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Steven Hines,Cocos (Keeling) Islands,F,7190698373203,25,15.9,129,68,189,37,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Christopher Harris,India,M,1448223098319,86,44.9,157,85,234,75,1,0,1,0,0,0,0,0,0,1,0,27.5,Red
+Darlene Nelson,Antarctica (the territory South of 60 deg S),F,3290672836343,31,36.1,132,92,194,32,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kyle Cervantes,Nigeria,M,5741274380423,54,30.8,133,92,176,45,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Derek Cobb,Tanzania,M,5087075211772,62,30.7,135,92,184,47,3,1,0,0,1,1,0,0,0,0,0,20.0,Orange
+Richard Brown,Armenia,M,8226531406247,64,26.9,149,92,217,73,1,0,1,0,0,0,1,0,0,0,0,22.5,Red
+Elizabeth Meyer,Mauritania,M,5458883784374,51,32.4,140,91,261,44,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Robert Hernandez,Mali,M,0243576352870,45,17.0,121,67,179,59,0,0,0,0,0,0,1,0,0,0,0,10.0,Green
+Lisa Smith,Mozambique,M,4668006823175,58,36.7,141,84,221,51,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Tina Ramirez,Gambia,M,8318289249945,37,24.6,116,80,214,56,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Karen Mann,Saint Martin,F,6625797447414,49,37.6,160,95,156,30,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Guy Torres,Kyrgyz Republic,F,7960506812008,48,21.6,121,85,269,63,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kimberly Washington,France,M,4876146533599,68,38.1,158,92,194,55,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Timothy Fitzpatrick,Trinidad and Tobago,F,3374647272494,55,43.0,142,88,215,64,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Peter Solis,Georgia,M,6605038888015,53,14.7,130,90,255,45,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Michael Delgado,Korea,M,0584929853911,52,38.1,132,83,238,48,1,0,0,0,0,1,0,0,0,0,0,10.0,Orange
+Stephen Gonzalez,Christmas Island,F,8160015476350,77,44.1,152,85,227,32,1,0,1,0,0,0,0,0,0,1,0,30.0,Red
+Andrea Woods,Ethiopia,F,4586932022311,65,31.1,160,81,256,61,3,1,1,1,0,0,0,0,0,0,0,30.0,Red
+Sean Henry,Cape Verde,F,3332406531800,59,20.0,152,80,192,65,2,0,1,0,1,0,0,0,0,0,0,10.0,Orange
+Amber Mcdonald,Falkland Islands (Malvinas),F,4656566974970,19,38.3,152,87,202,42,2,1,1,0,0,0,0,0,0,0,0,15.0,Orange
+Eileen Sparks,Malawi,M,7928820938828,40,32.8,149,87,217,54,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Cheyenne Carey,Jamaica,M,6355337337287,62,39.5,160,85,190,61,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Jacob Ingram,Cayman Islands,M,3530117033914,38,24.7,125,67,152,40,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Jessica Mcdaniel,Cayman Islands,M,6691412855636,41,28.0,195,82,208,70,1,0,1,0,0,0,0,0,0,1,0,10.0,Red
+Ashley Barnes,Mozambique,F,4980468599321,52,21.5,120,88,242,65,2,0,1,0,0,1,0,0,0,1,0,10.0,Orange
+Jennifer Booth,Gambia,M,6014174866908,52,34.3,128,90,250,58,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Mark Bauer,Tunisia,F,9396300468819,48,35.4,158,94,184,44,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Dylan Thomas,Micronesia,M,0052797909271,28,43.1,123,87,220,31,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+John Mills,Tunisia,F,0030916086775,65,33.9,145,93,246,56,1,0,1,0,0,0,0,0,0,1,0,25.0,Red
+Brenda Skinner,Barbados,M,2431796343084,57,17.4,159,93,200,53,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Mark Riggs,Northern Mariana Islands,M,0030594416949,80,24.2,134,90,178,35,1,1,0,0,0,0,0,0,0,0,0,35.0,Red
+Monica Burns,American Samoa,M,4973600972687,55,32.8,142,92,170,65,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Nathan Dixon,Trinidad and Tobago,M,6783428888118,63,24.4,151,86,207,33,1,0,1,0,0,0,1,0,0,0,0,30.0,Red
+Andrew Warner,Ireland,M,9794835013243,60,36.0,154,83,195,67,2,0,1,1,0,0,0,0,0,1,0,12.5,Orange
+Michelle Anderson DDS,Niue,F,6296961521669,62,19.9,120,86,170,71,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Terri Lamb,Eritrea,M,3187700641379,51,33.2,144,81,185,67,2,1,1,0,0,0,0,0,0,0,0,15.0,Orange
+Daniel Cisneros,Comoros,M,3579968744280,79,30.8,125,87,169,32,1,1,0,0,0,0,0,0,0,0,0,30.0,Red
+Derek Horton,Congo,M,3632599718904,85,19.9,136,95,151,60,1,0,0,1,0,0,1,0,0,0,1,32.5,Red
+Adrienne Walker,Palau,F,8491584067398,37,25.8,124,66,136,45,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jason French,Bhutan,F,9602011901195,54,22.4,145,81,179,41,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Stacey Love,Indonesia,F,6318184062207,82,21.5,127,91,267,68,1,1,0,0,0,0,0,0,0,0,0,32.5,Red
+Sandra Camacho,Antigua and Barbuda,F,0657456486980,65,22.7,132,95,274,74,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Robert Baker,Serbia,F,0296386230876,68,31.5,142,93,164,68,1,0,1,0,0,0,1,1,0,0,0,22.5,Red
+Wendy Olson,Faroe Islands,M,1138486719006,48,34.7,157,92,230,62,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Elizabeth Price,Paraguay,M,0698362733379,68,47.4,152,87,217,61,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+John Hanson,Brazil,M,4463196104512,72,21.1,156,92,197,38,1,0,1,0,0,0,0,0,0,1,0,25.0,Red
+Allen Hill,Croatia,F,7320956724366,86,31.1,155,86,165,34,2,1,1,0,0,0,0,0,0,1,0,40.0,Red
+Jeremy Medina,South Georgia and the South Sandwich Islands,F,0389037048941,45,43.0,141,81,266,42,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Shawn Torres,Antarctica (the territory South of 60 deg S),F,7214494188134,90,20.5,132,84,252,54,1,1,0,0,0,0,0,0,0,0,0,42.5,Red
+Belinda Shah,Burundi,F,0303477121972,40,34.0,144,87,187,53,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Jennifer Jones,Croatia,M,8598209888427,45,19.8,120,83,192,41,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Brett Simmons,Kuwait,M,2998595438675,39,30.9,149,87,146,63,1,0,1,0,0,0,0,0,0,0,0,2.5,Green
+Linda Carter,Burkina Faso,M,4958433779160,69,26.3,120,85,214,31,1,1,0,0,0,0,0,0,0,0,0,27.5,Red
+Sarah Williamson,Belize,F,5829508735413,70,35.7,140,88,175,48,2,1,1,0,0,0,1,0,0,0,0,32.5,Red
+Daniel Humphrey,Iraq,M,0704701203578,63,21.9,194,95,162,57,1,0,1,0,0,0,1,0,0,0,0,27.5,Red
+Julian Ibarra,Cote d'Ivoire,F,5779138014573,51,36.2,143,80,211,71,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Justin Vazquez,Bangladesh,F,8296877889349,64,36.3,159,86,159,62,2,0,1,1,0,0,0,0,0,1,1,12.5,Orange
+Joshua Hernandez,Ghana,M,1842245066637,27,36.4,190,90,206,31,1,0,1,0,0,0,1,0,0,1,0,25.0,Red
+Brandon Fowler,Tonga,M,3672878658552,56,21.8,148,85,205,51,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Dylan Harding,Montserrat,M,3737046297190,41,25.6,113,85,199,73,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Tina Gay,Iraq,M,5384779859157,56,34.1,150,93,214,51,2,0,1,0,0,1,0,0,0,1,0,15.0,Orange
+Christopher Martinez MD,Haiti,F,6083277830031,72,40.3,151,85,232,46,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Jeremiah Conner,Uruguay,F,2334745234979,51,23.6,126,94,180,42,1,1,0,0,0,0,1,0,0,0,0,20.0,Orange
+Matthew Garza,Congo,M,7536453282227,33,34.3,120,83,147,41,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+David Gonzalez,United States of America,F,9208669523408,41,21.5,120,74,276,50,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Sara Joseph,Rwanda,M,1103697202265,54,29.8,155,91,155,31,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Eric Lopez,Cuba,F,3993942124019,65,33.3,157,91,172,39,2,0,1,0,0,1,0,0,0,1,0,22.5,Red
+Heather Barnes,Kuwait,M,8477478758955,57,20.0,148,93,207,40,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Richard Taylor,Israel,M,5066208367913,47,31.6,135,95,189,45,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Shannon Jimenez,Congo,F,0867555695262,52,44.6,128,83,239,48,0,0,0,0,0,0,0,0,0,0,0,7.5,Orange
+Mr. Michael Davila,United Kingdom,M,2745938711328,65,24.9,136,81,194,49,1,1,0,0,0,0,1,0,0,0,0,30.0,Red
+Tracey Wells,Jamaica,M,1483628742344,52,45.5,175,87,228,68,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Ashley Jennings,Korea,M,6186465300245,65,26.6,138,91,274,63,3,1,0,1,0,1,0,0,0,1,0,27.5,Red
+Matthew Mays,Japan,F,3437738944356,71,27.9,127,94,171,39,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Melanie Dalton,Guam,M,9691179616157,21,24.0,111,67,216,63,1,0,0,1,0,0,0,0,0,1,1,1.0,Orange
+David Brown,Albania,M,5357303177690,19,19.9,106,66,208,30,1,0,1,0,0,0,1,0,0,1,0,15.0,Orange
+Colin Strickland,Haiti,M,6165537188363,78,27.4,121,84,217,62,1,1,0,0,0,0,0,0,0,0,0,25.0,Red
+Tina Dalton,Ecuador,M,7234514138802,74,38.7,130,82,239,31,1,1,0,0,0,0,0,0,0,0,0,30.0,Red
+Steven Pham,Nicaragua,M,2806478441981,49,39.5,123,83,184,33,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kaylee Olsen,British Indian Ocean Territory (Chagos Archipelago),M,8939035131033,36,35.3,123,94,187,38,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Megan Hayes,Burundi,M,6404826934602,40,35.8,152,82,206,64,2,0,1,0,1,0,0,0,0,1,0,5.0,Orange
+Matthew Watts,Cyprus,M,4638444004252,76,20.1,144,81,240,67,3,0,1,1,1,0,1,0,0,1,1,30.0,Red
+Danielle Campbell,Zimbabwe,F,7872619440026,28,36.3,132,80,144,31,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Diane Carr,Saint Helena,M,7308631984984,32,16.9,107,85,202,67,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Parker King,French Southern Territories,M,1021547196345,55,29.1,142,87,253,32,1,0,1,0,0,0,0,0,0,0,0,25.0,Orange
+Samuel Dixon,Togo,F,2222373369951,18,18.5,120,69,205,31,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Daniel Austin,French Guiana,F,2355781765951,59,41.6,120,95,255,39,0,0,0,0,0,0,1,0,0,0,0,27.5,Orange
+Robert Reyes,Spain,F,8209653774456,32,27.2,184,77,208,67,2,1,1,0,0,0,1,0,0,0,0,25.0,Red
+Lawrence West MD,Cote d'Ivoire,F,0405715825120,58,41.5,131,81,249,40,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Joseph Garcia,Belize,M,6644214979383,47,35.6,134,91,178,37,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Chris Moore,Cambodia,F,6127311535909,65,30.1,145,94,251,71,2,1,1,0,0,0,0,0,0,1,0,30.0,Red
+Alicia Edwards DVM,Svalbard & Jan Mayen Islands,F,1576103522187,48,18.8,125,77,273,70,3,1,1,0,1,0,0,0,0,0,0,15.0,Orange
+Thomas Gay,Burkina Faso,F,4514155879214,63,38.8,149,95,273,56,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Katherine Hinton,Denmark,F,9200166055123,88,22.0,122,93,222,32,0,0,0,0,0,0,0,0,1,0,0,30.0,Red
+Gloria Taylor,Papua New Guinea,F,7706810417771,51,25.7,131,93,243,70,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Gary Owens,Uganda,F,4520079348651,41,39.1,125,80,226,32,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kristopher Gibson,Estonia,M,0117740696421,37,24.9,113,67,218,71,2,1,0,1,0,0,0,0,0,0,0,7.5,Orange
+Mackenzie Rivera,Liberia,M,5348599466520,27,27.5,112,79,166,69,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Angela Wright,Micronesia,M,8966090023713,37,23.4,104,78,144,61,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Michael Weeks,Ireland,F,6663119987613,25,32.8,138,94,138,72,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Kimberly Saunders,Palau,M,8502938309559,39,31.7,149,93,153,42,1,0,1,0,0,0,0,0,0,0,0,5.0,Green
+Shannon Collins,Solomon Islands,M,5457962016368,56,43.0,140,94,158,73,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Edward Navarro,Malaysia,M,5858650265516,36,35.3,143,92,180,46,1,0,1,0,0,0,1,0,0,1,0,12.5,Orange
+Renee Williams,Guinea,F,2056129401400,26,23.0,119,75,216,41,1,0,0,0,0,1,0,0,0,0,0,2.5,Green
+Jessica Bowers,Jordan,M,9129282248595,35,22.1,117,78,185,70,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Lindsey Green,Bahrain,M,6499896468522,33,26.8,119,75,169,73,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Joy Olson,South Africa,F,8845145598348,39,24.6,125,81,150,36,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Victoria Cisneros,Guernsey,M,6360115300582,58,28.7,120,85,164,72,1,1,0,0,0,0,0,0,0,0,0,12.5,Green
+Lance Hall,Congo,M,8754578030861,68,31.3,120,95,264,63,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Regina Good,Angola,M,5233407901198,92,20.5,153,80,174,73,1,0,1,0,0,0,1,0,0,0,0,35.0,Red
+Sharon Miller,Malawi,M,0942343257393,68,34.0,127,83,177,52,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Tammy Reed,Turkey,M,6212372152414,94,39.4,134,83,189,61,0,0,0,0,0,0,0,0,0,0,0,25.0,Red
+John Peters,French Southern Territories,F,8950819537032,48,26.0,116,80,181,36,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Jacob Lee,New Zealand,F,6967682697499,25,20.4,109,82,154,40,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Marcia Shelton,Iceland,M,9621003477302,77,30.8,130,82,238,47,1,1,0,0,0,0,0,0,0,0,0,27.5,Red
+Richard Williams DDS,Paraguay,M,6501696992807,41,31.9,136,91,204,67,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Amy Martinez,Korea,F,3539522674934,52,41.5,125,81,209,57,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Shannon Medina,Burundi,M,9965546535151,22,38.1,190,94,147,54,1,0,1,0,0,0,0,0,0,1,0,10.0,Red
+Valerie Williams,Italy,M,3870444504450,51,30.2,145,87,201,33,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Terri Larson,Brazil,F,8718811391775,44,16.0,105,84,238,68,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Allen Hampton,Timor-Leste,F,9043382758016,26,22.3,122,70,158,35,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Joseph Chandler,Guernsey,M,9417188549121,65,41.4,140,85,273,59,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Erika Cole,Japan,F,0607321778627,53,22.4,147,92,237,74,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Billy Cortez,Suriname,F,4405403870391,65,34.1,142,91,153,31,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Devin Hall DDS,Seychelles,M,9943014606909,29,18.0,127,80,150,56,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Nicholas Hogan,Liechtenstein,M,0791209133025,37,36.8,137,81,171,48,2,1,1,0,0,0,1,0,0,0,0,17.5,Orange
+Jared Wu,Cambodia,M,3122608844026,47,24.1,122,66,247,31,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Rachel Herrera,Kenya,M,8992844097433,65,28.2,155,88,250,42,2,1,1,0,0,0,0,0,0,0,0,32.5,Red
+Mark Snyder,Panama,M,7240916756551,23,34.1,142,80,177,62,1,0,1,0,0,0,0,0,0,0,0,2.5,Green
+Martha Jimenez,Angola,F,5336266879834,73,38.5,131,85,248,30,0,0,0,0,0,0,0,0,0,0,0,30.0,Red
+Casey Davila,Romania,F,0073540447222,43,23.1,119,79,272,55,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Colin Dominguez,Tunisia,M,4359635629572,33,25.1,119,77,138,47,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Thomas Fowler,Namibia,M,3926202835745,54,31.6,138,82,153,59,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Debra Brown,Dominica,M,9440742168971,36,20.6,126,70,213,46,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Sean Ruiz,Andorra,M,6885031657768,69,26.6,149,83,214,66,2,0,1,1,0,0,0,0,0,0,1,17.5,Orange
+Richard Young,Swaziland,F,5968966920358,56,14.4,151,82,217,36,1,0,1,0,0,0,1,0,0,1,0,27.5,Orange
+Scott Martin,Egypt,F,7926546786532,70,17.4,136,80,173,54,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Amy Kelley,British Indian Ocean Territory (Chagos Archipelago),F,1747058802505,61,20.8,139,84,258,73,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+James Jackson,Guatemala,M,4643894764656,64,41.8,145,94,248,54,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Benjamin Torres,Bhutan,F,0283845616340,56,21.1,121,86,189,47,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Zachary Rodriguez,French Polynesia,F,0992326640940,70,27.9,125,81,153,56,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Sean Carpenter,Kyrgyz Republic,F,1092860909684,92,28.4,138,93,275,39,0,0,0,0,0,0,0,0,0,0,0,40.0,Red
+Katherine James,Ghana,F,3402867851745,44,39.6,139,90,181,62,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Brianna Lawrence,Argentina,F,9264179519935,34,35.7,139,85,185,35,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Michael Price,Yemen,F,2594183770099,61,39.5,125,90,186,61,0,0,0,0,0,0,0,0,0,0,0,7.5,Orange
+Garrett White,Switzerland,F,4433899520414,53,37.1,159,92,165,72,2,0,1,0,0,1,0,0,0,1,0,7.5,Orange
+John Smith,Cyprus,F,1476207416484,31,37.8,131,92,169,75,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+Justin Crawford,Peru,M,3903981653043,31,37.6,121,91,193,46,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+James Mason,Spain,F,7915102928110,32,26.0,121,73,131,38,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Gary Stephens,Mali,M,4238586410920,59,32.9,144,80,150,39,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Nancy Gould,British Virgin Islands,F,2819339334797,63,33.6,122,88,258,33,2,1,1,0,0,0,0,0,0,1,0,30.0,Red
+Thomas Murphy,Cameroon,F,1695637957033,80,23.8,142,91,230,75,2,1,1,0,0,0,0,0,0,0,0,32.5,Red
+Julie Vargas,North Macedonia,F,2205610559605,61,25.1,120,89,184,45,1,0,0,1,0,0,0,0,0,0,1,10.0,Orange
+David Davila,Tokelau,M,7284886092585,23,27.7,113,71,158,61,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Russell Cortez,Burundi,F,6489829717100,36,26.3,104,72,159,30,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Henry Berger,Switzerland,M,1616236871636,80,19.6,174,81,154,60,1,0,1,0,0,0,0,0,0,1,0,30.0,Red
+Sarah Stewart,Korea,F,1064940399456,66,31.5,126,95,270,41,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Warren Martin,Ukraine,F,9750038008851,47,30.9,131,92,231,67,1,0,1,0,0,0,1,0,0,1,0,12.5,Orange
+Jessica Zimmerman,Saint Martin,M,5128738191199,51,25.7,156,82,251,55,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Daniel Robertson,Lao People's Democratic Republic,M,4740556483211,50,32.0,140,91,184,45,1,0,1,0,0,0,1,0,0,0,0,15.0,Orange
+Mike Brown,Gibraltar,M,6565573708882,39,36.0,126,85,136,47,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Sarah Whitehead,Trinidad and Tobago,F,7408451109014,52,26.3,135,93,214,59,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Derek Ramos,Bahrain,M,6774473681298,36,26.6,117,67,156,33,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Robert Matthews,Syrian Arab Republic,M,4780867701192,48,26.8,106,82,211,34,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Kimberly Torres,Cocos (Keeling) Islands,M,8879450911974,63,31.7,121,94,237,61,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Valerie Taylor,Japan,M,7833355983659,75,28.3,153,81,170,49,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Bryan Juarez,Paraguay,M,9422412496942,94,29.7,145,94,188,36,2,1,1,0,0,0,1,0,0,0,0,45.0,Red
+Edward Kim MD,Brunei Darussalam,F,2262551407389,65,37.9,157,88,151,35,2,0,1,0,0,1,0,0,0,0,0,22.5,Red
+Peter Johnson,Kuwait,M,3281157087893,57,40.3,122,82,238,68,0,0,0,0,0,0,0,0,0,0,0,7.5,Orange
+Colleen Sanchez,French Southern Territories,M,9199788381034,79,33.6,126,87,216,43,0,0,0,0,0,0,1,0,0,0,0,27.5,Red
+Rose Brown,Latvia,F,9687788087266,21,16.1,116,81,145,53,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Daniel Warren,Norway,M,3826782846424,49,26.8,118,75,219,41,1,1,0,0,0,0,0,0,0,0,0,12.5,Green
+Phyllis Simpson,Venezuela,F,7221364665329,36,29.7,108,78,168,45,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Lori Anderson,Barbados,M,9196342562489,40,33.2,156,84,147,74,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Isabel Brown,Svalbard & Jan Mayen Islands,F,4968704362519,64,35.4,154,89,162,43,2,1,1,0,0,0,0,0,0,0,0,22.5,Red
+Melissa Riley,Panama,F,9094353898880,54,27.1,128,95,245,41,1,1,0,0,0,0,0,0,0,0,0,20.0,Orange
+Mark Caldwell,Yemen,F,7000325231823,34,20.3,116,78,210,68,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Breanna Valenzuela DDS,Georgia,F,5512490554772,40,18.0,112,79,206,36,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Robert Garcia,Rwanda,M,3955542450035,62,39.4,160,95,253,33,2,1,1,0,0,0,0,0,0,0,0,35.0,Red
+Keith Griffin,Lao People's Democratic Republic,F,9154171700366,45,37.1,131,80,196,55,3,0,1,1,0,1,0,0,0,1,0,5.0,Orange
+Susan Mosley,Namibia,M,4220800003308,46,31.2,153,82,237,33,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Marcus Lawrence,Cuba,F,6346726515317,56,43.7,159,94,204,57,2,0,1,1,0,0,1,0,0,1,1,22.5,Orange
+Amber Hernandez,Yemen,F,2543668337319,31,45.6,149,84,216,72,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Vanessa Rivers,French Southern Territories,M,4802238190715,19,29.4,130,83,207,71,1,1,0,0,0,0,1,0,0,0,0,15.0,Orange
+Katrina Melton,Libyan Arab Jamahiriya,M,1642183129988,69,23.1,121,88,222,32,1,1,0,0,0,0,0,0,0,0,0,27.5,Red
+Christopher Tran,Eritrea,F,8894398594324,57,15.5,144,80,173,63,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Julie Rivera,United States Virgin Islands,M,2179364678359,51,30.3,160,82,202,43,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Jessica Johnson,Wallis and Futuna,M,7350617651700,52,20.2,120,94,265,41,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+David Walls,Turkey,F,6471789921925,51,42.2,126,89,234,60,0,0,0,0,0,0,0,0,0,0,0,7.5,Orange
+Jessica Love,Faroe Islands,M,7887801473638,47,33.5,158,89,173,45,1,0,1,0,0,0,1,0,0,0,0,15.0,Orange
+Travis Brown,Ghana,M,2202758148173,46,30.2,129,85,250,38,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Brian Cruz,Norway,F,4471700560761,38,16.7,122,76,141,39,1,0,1,0,0,0,0,0,0,0,0,5.0,Green
+Carl Tran,Niger,F,3135287041181,71,14.7,152,82,161,65,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Jeffrey Reed,Guadeloupe,M,4389560326208,68,30.4,125,84,177,43,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Logan Vaughn,Cambodia,F,9051117393401,60,36.8,122,94,254,30,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+Victoria Morris,Martinique,M,4849714773277,89,25.0,154,83,152,70,1,0,1,0,0,0,0,0,0,0,0,25.0,Red
+Brenda Steele,Switzerland,F,4316082646750,64,19.4,177,90,151,41,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Alicia Walker,Suriname,M,5290291470728,21,21.8,122,69,183,73,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Kristen Mcdowell,United States Minor Outlying Islands,M,3433694327868,69,22.5,140,92,207,30,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Robert Oconnell,Bosnia and Herzegovina,M,7998239138898,42,25.9,115,76,151,47,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Janet Gibbs,Anguilla,M,7401075683465,69,29.0,160,86,168,30,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Dr. Anthony Chang,United States of America,F,9634856410143,61,21.2,143,87,169,74,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Mike Francis,Lao People's Democratic Republic,F,8066898838400,74,26.8,122,95,197,57,1,1,0,0,0,0,1,0,0,0,0,30.0,Red
+John Young,Antigua and Barbuda,M,6584320641920,74,31.3,122,89,168,60,1,1,0,0,0,0,0,0,0,0,0,22.5,Red
+Holly Boyd,Gabon,F,5935194184708,39,14.1,119,78,139,32,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Nichole Martinez,Guadeloupe,M,1343011236945,52,29.1,121,91,183,63,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Thomas Leonard,Nicaragua,M,7664736516322,81,21.0,159,82,265,41,1,0,1,0,0,0,0,0,0,1,0,32.5,Red
+Leslie Griffith,Uzbekistan,F,5951945754921,58,24.3,151,86,223,50,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Christopher Smith,Fiji,M,8515152388705,58,27.8,153,80,240,55,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Stephanie Pratt,Belarus,M,7153286649807,59,28.7,143,90,251,40,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Erik Hamilton,Congo,F,2726265158574,55,40.8,132,83,273,53,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Nicole Schwartz,Norfolk Island,M,2232037561034,63,32.1,145,94,178,37,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Kathleen Owens,Guam,F,5351523149956,30,35.6,132,94,171,66,1,0,1,0,0,0,0,0,0,0,0,1.0,Green
+Madison Underwood,American Samoa,M,7551214091825,63,32.9,158,93,215,74,2,0,1,1,0,0,0,0,0,1,1,15.0,Orange
+James Lewis,Uruguay,F,9831132018509,57,37.5,151,88,219,74,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Michael Hall,United States Minor Outlying Islands,M,5502655515700,69,33.5,121,86,217,30,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+David Carlson,Syrian Arab Republic,F,3676938220154,32,18.7,110,67,177,52,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Dorothy Payne,Vanuatu,M,3920408800507,36,33.7,148,89,185,36,2,0,1,0,0,1,0,0,0,0,0,10.0,Orange
+Michael Webster,Svalbard & Jan Mayen Islands,F,7545958230923,23,29.4,117,76,176,38,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Abigail Young,British Indian Ocean Territory (Chagos Archipelago),M,5670067759217,48,32.0,153,81,278,73,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Arthur Estrada,Cuba,M,1616745393148,71,20.3,156,93,186,36,2,1,1,0,0,0,0,1,0,1,0,32.5,Red
+Jessica Lawrence,British Virgin Islands,F,1499277869387,48,24.0,103,73,254,71,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Christopher Roth,Jordan,M,2226423598766,80,48.7,124,92,180,50,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Bonnie Anderson,Mozambique,F,4335241560522,54,36.8,181,83,166,51,1,0,1,0,0,0,0,0,0,1,0,15.0,Red
+Matthew Jackson,Monaco,M,7779780905647,79,37.1,141,81,198,39,1,0,1,0,0,0,0,0,0,0,0,27.5,Red
+Anthony Adkins,Serbia,F,3594478592701,26,43.1,145,88,156,49,1,0,1,0,0,0,1,0,0,1,0,12.5,Orange
+Timothy Evans,French Guiana,F,7228488626397,39,17.1,189,78,148,54,1,0,1,0,0,0,0,0,0,0,0,10.0,Red
+John Snyder,Bulgaria,F,8029696709808,51,18.6,155,93,244,64,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Heather Bryant,Reunion,F,2700312938258,31,23.7,120,65,157,47,1,0,0,0,0,1,0,0,0,0,0,1.0,Green
+Angela Kerr,Antigua and Barbuda,M,8880411998286,64,33.9,120,86,265,67,1,1,0,0,0,0,0,0,0,0,0,22.5,Red
+Robert Nguyen,Papua New Guinea,M,3054235668631,32,29.0,116,67,196,72,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+William Thomas,Guatemala,F,2329673263757,64,39.6,135,82,270,44,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Jennifer Knox,Libyan Arab Jamahiriya,F,8684401264494,41,16.0,108,68,161,70,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Dr. Natalie Sutton,Isle of Man,M,2785524182828,57,22.2,147,82,216,45,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Logan Torres,Solomon Islands,M,5113483865082,37,31.1,126,80,145,60,1,0,0,0,1,0,0,0,0,0,0,1.0,Green
+William Davis,Macao,F,9733492879762,50,37.4,156,92,261,33,1,0,1,0,0,0,0,0,0,1,0,22.5,Orange
+Katherine Gibson,Croatia,F,4107014640690,91,16.8,158,86,194,57,1,0,1,0,0,0,0,0,0,1,0,30.0,Red
+Joshua Wagner,San Marino,F,1592395515003,38,21.7,111,85,161,49,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jacob Boone,Western Sahara,F,5244816113805,62,14.7,151,90,162,43,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Kayla Brown,Grenada,M,5285845437777,65,46.5,122,85,229,66,1,0,0,0,0,1,0,0,0,0,0,12.5,Orange
+Stuart Smith,Mali,M,2547011578626,52,22.4,145,80,173,54,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Melody Rivera,Bhutan,F,5760732317764,21,31.6,150,84,175,50,1,0,1,0,0,0,0,0,0,0,0,5.0,Orange
+Mrs. Samantha Weber,Montserrat,F,0393834995209,63,21.6,139,80,232,53,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Jorge Boyd,Iraq,F,9653141252473,57,39.6,154,87,193,64,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Kristin Whitehead,Venezuela,F,6264267909634,35,33.7,148,83,164,59,2,1,1,0,0,0,1,0,0,0,0,20.0,Orange
+Anthony Gray,Sri Lanka,M,9154564559632,55,23.9,125,94,267,68,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Anthony Pitts,American Samoa,F,7285193774362,56,20.8,123,85,180,31,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+David Harrington,Guadeloupe,F,2487389268883,63,52.9,155,84,192,66,3,1,1,0,0,1,0,0,0,1,0,20.0,Orange
+John Watson,Holy See (Vatican City State),F,6092447819035,48,30.9,129,84,258,47,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Janet Gilbert,Russian Federation,M,6308986402530,56,35.2,159,92,190,75,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Alicia Curtis,Tajikistan,F,2775359641133,51,25.7,152,93,157,41,1,0,1,0,0,0,1,0,0,0,0,17.5,Orange
+Brandon King,Peru,F,3678037524355,45,44.9,135,85,185,53,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Sandra Jimenez,Saint Martin,M,9691708820680,79,35.0,130,87,198,60,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Michael English,Grenada,M,4829215212949,59,25.5,123,93,230,56,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Mark Daniels,Sweden,F,9932832880622,51,20.2,133,84,216,59,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Steven Jackson,British Indian Ocean Territory (Chagos Archipelago),M,0790955760967,73,21.5,145,86,267,32,1,0,1,0,0,0,0,0,0,0,0,32.5,Red
+Michelle Davis,Myanmar,M,4643126489883,32,22.4,112,68,178,40,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+Jessica Smith,Zimbabwe,M,6694226842755,60,45.9,149,80,166,48,3,1,1,1,0,0,0,0,0,0,0,22.5,Red
+Gerald Gilmore,Samoa,F,3584028295282,27,17.5,125,68,155,37,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+David Young,Chile,M,5411388381431,41,31.6,141,94,187,47,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Nancy Moore,Sudan,M,2256417662548,56,40.8,150,94,181,64,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+Debra Roach,Thailand,M,8817159303478,54,21.1,144,87,188,35,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Larry Michael,Cambodia,M,0395582784425,53,35.6,124,80,157,34,0,0,0,0,0,0,0,0,0,0,0,10.0,Orange
+Amanda Jones,Cote d'Ivoire,F,5836384419429,30,26.6,107,66,171,49,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Joshua Morrison,Guam,F,8754480879695,41,28.4,124,78,217,66,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Michael Jones,Palestinian Territory,M,9523308471569,56,29.5,127,93,201,52,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Brian Wheeler,Saint Pierre and Miquelon,M,1955773008885,18,30.7,156,88,218,40,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Erin White,Belgium,M,9869872208874,32,38.2,127,80,209,30,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Guy Coleman,Nigeria,F,7004741189874,58,24.8,122,85,167,50,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kimberly Little,Venezuela,F,5756582868778,80,30.6,146,82,160,46,3,1,1,0,0,1,0,0,0,0,0,32.5,Red
+Lauren Arias,Kyrgyz Republic,F,5091798963641,79,22.6,141,89,213,34,1,0,1,0,0,0,0,0,0,1,0,30.0,Red
+Leslie Dean,Mauritania,F,7092652942343,52,34.9,136,84,233,68,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Rebecca Hudson,Costa Rica,F,1716419211799,61,23.1,150,86,279,71,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Emma Fisher,Trinidad and Tobago,M,4041319700096,54,44.2,149,85,228,74,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+Lisa Nash,Belarus,F,4892340945303,66,22.9,133,81,199,33,2,1,1,0,0,0,0,0,0,0,0,27.5,Red
+Scott Taylor,Mozambique,F,5150616561572,53,16.9,126,82,267,71,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Felicia Vasquez,Dominican Republic,F,8590895401713,30,39.6,153,94,145,57,1,0,1,0,0,0,0,0,0,0,0,5.0,Orange
+Mary Robertson,Bulgaria,F,6362711743060,49,34.4,160,91,234,39,2,1,1,0,0,0,0,0,0,0,0,22.5,Orange
+Michael Ray,Kiribati,F,7320704829510,40,30.4,130,92,130,57,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Richard Munoz,Tajikistan,M,3114163160666,80,34.2,153,91,270,45,1,0,1,0,0,0,0,0,0,0,0,32.5,Red
+Stacy Delgado,Ireland,F,1962335416309,68,40.3,179,91,218,59,2,1,1,0,0,0,0,0,0,1,0,32.5,Red
+Julia Johnson,Samoa,M,8596373120145,48,17.4,100,75,186,52,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+John Mason,Benin,F,3954692983417,35,27.5,107,65,193,57,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Barbara Castro,Jordan,M,5180173894813,72,28.0,128,84,214,56,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Ryan Contreras,American Samoa,F,7587115698887,26,31.3,141,94,183,66,1,0,1,0,0,0,0,0,0,0,0,2.5,Green
+Jacob Horne,Guadeloupe,M,5317789853419,32,37.3,135,95,216,57,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Rhonda Mclaughlin,Kuwait,F,9197847128248,31,23.6,128,84,171,66,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Anthony Wilson,Paraguay,M,0435400609537,70,42.2,129,83,243,75,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Erin Carr,British Virgin Islands,M,8969281516568,83,16.6,132,82,236,62,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Terri Walker,Mauritania,M,0178156241841,41,35.2,136,88,153,55,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Alex Jones,Macao,M,2206962634507,76,29.9,135,83,211,46,2,1,0,1,0,0,0,0,0,0,1,30.0,Red
+Elizabeth Clayton,Heard Island and McDonald Islands,F,5430693744786,55,18.0,149,86,224,32,2,1,1,0,0,0,0,0,0,0,0,27.5,Orange
+Jane Richards,Sao Tome and Principe,M,1744918978745,73,24.2,127,92,152,42,1,1,0,0,0,0,0,0,0,0,0,22.5,Red
+Lisa Freeman,Brunei Darussalam,F,3481525864426,81,41.0,147,93,196,47,1,0,1,0,0,0,0,0,0,0,0,25.0,Red
+Shannon Kelly,Fiji,F,5751775940613,38,28.3,119,82,199,40,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Ryan May,Armenia,F,3607715176203,56,33.9,149,91,227,52,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Patricia Rich,Benin,F,8610643381118,55,21.9,153,94,177,62,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Sharon Cole,Cameroon,M,0074123152090,42,20.9,121,69,269,56,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Mary Bean,Argentina,M,7890535019515,62,34.3,120,83,276,37,1,1,0,0,0,0,1,0,0,0,0,37.5,Red
+Eddie Johnson,Ghana,F,9170868948170,59,20.8,145,88,278,51,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Kevin Nelson,Hong Kong,M,0909539346743,69,37.3,157,85,157,38,1,0,1,0,0,0,1,0,0,0,0,30.0,Red
+Richard Davis,Pitcairn Islands,F,0084343396563,52,38.4,125,94,280,46,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Jennifer Pham,Wallis and Futuna,M,5199583088477,63,16.8,135,88,259,74,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Jeremiah Taylor,Montserrat,M,8803370625109,53,22.4,126,88,238,58,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Rebecca Arnold,Peru,F,1945209147912,78,34.2,126,80,181,57,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Mr. Robert Sherman DVM,Lesotho,F,5813246559035,66,23.5,134,90,209,55,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Jacob Welch,British Virgin Islands,F,6771605307415,33,21.1,117,65,182,38,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Brian Bryan,Georgia,F,4072121816477,42,42.3,152,84,170,38,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+Patricia Hernandez,New Caledonia,M,0133867615138,18,20.1,120,79,167,63,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Pamela Thomas,Christmas Island,F,1323290789073,52,24.6,146,87,238,58,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Frank Conrad,Barbados,F,2982333339324,64,48.7,147,93,184,55,3,1,1,1,0,0,1,0,0,0,1,30.0,Red
+Brian Chan,Zimbabwe,F,6251350335838,45,27.6,118,85,173,60,1,0,0,0,1,0,0,0,0,0,0,2.5,Green
+Linda Jefferson,Nauru,M,6105482453475,41,27.9,130,80,278,60,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Nathaniel Daniel,Oman,M,9412051071440,65,31.0,143,85,158,58,2,1,1,0,0,0,0,0,0,0,0,25.0,Red
+Jacqueline Martinez,Falkland Islands (Malvinas),F,0993507580536,75,34.4,149,83,176,74,1,0,1,0,0,0,1,0,0,1,0,27.5,Red
+Amanda Banks,Indonesia,F,9983824956184,48,30.9,149,81,175,31,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Jamie Bailey,French Southern Territories,F,0650686141605,55,35.1,144,85,257,72,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Lindsay Romero,Svalbard & Jan Mayen Islands,M,7803451713078,35,21.3,124,81,151,40,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Rhonda Perez,Kyrgyz Republic,F,3830822428921,70,16.2,146,83,220,59,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Felicia Nunez,Guam,M,9714804486854,72,35.0,146,87,181,66,2,1,1,0,0,0,0,0,0,0,0,25.0,Red
+Sherri Rocha,Mali,M,3319901272216,34,23.6,110,75,166,69,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Kendra Santana,Saint Martin,M,4599481178439,32,23.1,130,85,186,37,1,1,0,0,0,0,0,0,0,0,0,12.5,Green
+Becky Johnson,Trinidad and Tobago,M,0010867069713,53,27.5,157,93,168,67,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Victoria Gould,Saint Helena,F,9196059830451,61,45.5,156,89,232,56,2,1,1,0,0,0,0,0,0,0,0,25.0,Red
+Dana Weeks,Samoa,F,8803337425377,78,20.9,151,93,218,49,1,0,1,0,0,0,0,0,0,0,0,25.0,Red
+Dr. Lisa Lawrence,San Marino,F,5650942995701,29,23.4,103,82,173,56,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Cheryl Navarro,Greenland,M,5969560244871,63,50.8,152,88,153,59,1,0,1,0,0,0,1,0,0,1,0,22.5,Red
+Richard Nguyen,Nicaragua,F,8670334452268,82,17.2,120,92,183,36,1,1,0,0,0,0,1,0,0,0,0,40.0,Red
+Kathleen Singh,Guam,F,8894263219178,54,34.4,137,93,243,59,1,0,0,0,0,1,0,0,0,0,0,15.0,Orange
+Kimberly Fisher,Christmas Island,M,9663613826392,45,29.9,113,82,168,45,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Jessica Elliott,Wallis and Futuna,M,5015602388420,47,22.5,103,76,156,57,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Dr. Patrick Warren,Palau,F,8586270182742,23,34.4,127,95,142,58,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Kevin Young,Palau,M,6234829597333,58,31.2,153,81,268,50,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Lisa Martinez,Syrian Arab Republic,F,7162183982979,65,35.2,151,84,181,72,2,0,1,1,0,0,0,0,0,1,0,15.0,Orange
+Rhonda Knox,Andorra,F,2413976968430,42,15.7,102,78,196,41,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Thomas Nguyen,Samoa,F,6834899103184,51,32.5,139,94,212,68,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Stephen Carter,Brazil,M,7812979738203,59,34.1,152,80,171,31,1,0,1,0,0,0,1,0,0,0,0,25.0,Orange
+Dale Moss,Tunisia,M,2191706457231,58,24.8,158,92,154,72,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+Christina Nguyen,Jersey,M,7609062591384,51,24.9,157,84,178,66,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Madeline Coleman MD,Ethiopia,M,3425336756983,75,29.9,124,92,216,69,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Joy Kennedy,Czech Republic,F,7779339496329,61,50.6,121,84,234,75,1,1,0,0,0,0,0,0,0,0,0,17.5,Orange
+Lindsay Dean,Dominican Republic,F,4499106135192,54,29.3,141,95,233,33,3,0,1,1,0,1,0,0,0,1,1,17.5,Orange
+Alexa Walker,Korea,M,3321649668558,58,33.3,128,94,188,43,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kenneth Martin,Namibia,F,6104578615780,60,24.9,129,93,162,65,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Sheryl Reese,Saint Helena,F,0613831902308,56,34.0,149,83,168,60,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Sarah Chavez,Mali,F,1920138681263,52,21.0,124,89,253,68,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Dylan Price,Saint Helena,M,8383605788095,38,48.7,142,94,132,67,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Steven Hernandez,Antigua and Barbuda,M,9851070687025,46,24.6,114,85,238,72,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Ashley Tran,Dominica,F,2253837857349,42,20.7,101,67,242,64,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Jason Burke,Oman,F,9479227770767,62,35.1,124,90,257,45,0,0,0,0,0,0,1,0,0,0,0,25.0,Red
+Ernest Schroeder,Comoros,M,3560624836838,57,19.5,160,91,217,50,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Eric Mcdonald,Cyprus,M,0633761203450,18,42.6,129,95,213,33,1,0,0,0,1,0,0,0,0,0,0,7.5,Green
+Tammy Villarreal,Congo,M,5327347683419,53,30.3,143,95,242,54,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Carol Foster,Kazakhstan,M,2564083271583,21,34.5,142,89,140,53,1,0,1,0,0,0,0,0,0,0,0,5.0,Green
+Sierra Jacobs,Greenland,F,0392386558993,32,25.8,109,69,140,74,1,0,1,0,0,0,1,0,0,1,0,5.0,Orange
+Barbara Wall,Uganda,M,8606838795518,70,23.7,154,80,162,61,2,0,1,1,0,0,0,0,0,1,0,17.5,Orange
+Elizabeth Sutton,Palau,M,8404796146911,71,41.0,146,87,272,46,2,1,1,0,0,0,0,0,0,0,0,35.0,Red
+Lisa Hernandez,Montserrat,M,1090139315655,48,39.5,160,80,189,61,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+James Parrish DDS,Ecuador,F,3408160716743,66,25.5,148,80,158,34,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Jonathan Black,Bangladesh,F,2698475672136,57,31.5,128,85,181,50,1,0,0,0,1,0,0,0,0,0,0,7.5,Green
+Marie Ross,Cambodia,M,2399645302401,23,45.0,126,92,218,57,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Anthony Cox,Puerto Rico,F,7004428224959,29,31.2,146,81,142,42,1,0,1,0,0,0,0,0,0,0,0,5.0,Green
+April Lewis,Saint Pierre and Miquelon,F,9040156552160,36,29.9,111,85,183,43,2,1,0,1,0,0,0,0,0,1,1,7.5,Orange
+Michael Dominguez,Israel,F,3891180083733,57,19.1,136,88,247,69,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Ruth Wilson,Afghanistan,F,6515549627754,47,32.1,140,81,212,40,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Benjamin Harmon,Anguilla,F,1255393278027,50,23.5,118,72,247,43,0,0,0,0,0,0,1,0,0,0,0,20.0,Orange
+Morgan Reynolds,Bosnia and Herzegovina,M,1488928244468,61,38.5,158,89,170,34,2,1,1,0,0,0,0,0,0,1,0,27.5,Red
+Alan Young,United Kingdom,M,6275797467167,49,32.7,127,81,255,34,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Abigail Marshall,New Caledonia,M,1114078278113,64,19.6,141,90,214,35,1,0,1,0,0,0,1,0,0,1,0,30.0,Red
+Johnny Schmitt,Fiji,M,5252924876963,69,22.2,137,91,230,49,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Anthony Pena,British Indian Ocean Territory (Chagos Archipelago),F,7441228005591,80,23.4,160,89,273,68,1,0,1,0,0,0,0,0,0,0,0,30.0,Red
+Jonathan Clements,Libyan Arab Jamahiriya,F,1286020762107,63,17.7,123,89,227,69,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Valerie Silva,Azerbaijan,F,1253349048168,56,29.4,155,91,209,63,2,0,1,0,0,1,0,0,0,1,0,12.5,Orange
+Derrick White,Finland,F,9785689851532,48,24.6,107,71,193,64,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Gabriel Clements,Suriname,F,2529450210480,34,38.1,137,90,136,68,1,0,0,0,0,1,1,0,0,0,0,7.5,Green
+Adam Nash,Sri Lanka,F,9668904047838,60,44.3,120,80,161,65,1,0,0,0,0,1,0,0,0,0,0,7.5,Orange
+Mrs. Melanie Barajas,American Samoa,M,3677757564139,31,31.6,149,94,148,43,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Victoria Ray PhD,Oman,F,1402356956120,55,19.7,157,80,245,45,1,0,1,0,0,0,1,0,0,1,0,27.5,Orange
+Tammy Hahn,Saint Martin,M,4806187856104,66,34.9,154,86,176,47,3,1,1,1,0,0,0,0,0,1,1,25.0,Red
+Mrs. Julie Matthews,Sudan,F,9684301656053,65,18.3,135,80,218,32,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+Regina Garrett,Tuvalu,F,6012683853495,71,16.1,145,93,264,30,1,0,1,0,0,0,0,0,0,0,0,32.5,Red
+Edgar Houston,Turkmenistan,M,4664403604744,57,40.7,193,89,208,53,1,0,1,0,0,0,1,0,0,1,0,27.5,Red
+Anthony Montoya,France,F,8245338001561,76,24.0,129,83,212,65,1,1,0,0,0,0,0,0,0,0,0,25.0,Red
+Shelley Mora,Algeria,F,3179764096912,22,36.3,146,94,194,64,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Ms. Jeanne Benson,Mali,F,0886356940784,38,30.3,131,81,188,33,1,0,0,1,0,0,0,0,0,1,1,7.5,Orange
+John Waller,Haiti,M,9545905829888,35,28.7,108,84,213,75,1,0,1,0,0,0,0,0,0,0,0,1.0,Green
+Caroline Cruz,Marshall Islands,F,2193843474041,58,18.2,130,93,214,68,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Tonya Taylor,Congo,M,9288610830441,31,23.1,115,65,156,35,1,0,1,0,0,0,1,0,0,0,0,12.5,Green
+Charles Cook,Bosnia and Herzegovina,M,8881093438534,58,24.7,130,89,233,39,1,1,0,0,0,0,0,0,0,0,0,22.5,Orange
+Jessica Hughes DVM,Korea,M,7739503978655,22,33.7,140,90,209,50,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Erica Coffey,Brazil,M,4450118436752,62,40.1,151,80,158,63,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Cristian Wilson,Grenada,F,9823181204125,32,35.8,158,95,206,75,1,0,1,0,0,0,1,0,0,0,0,12.5,Orange
+Daniel Parrish,Dominica,M,4069334533765,80,28.7,123,89,167,55,1,1,0,0,0,0,0,0,0,0,0,27.5,Red
+Ronald Sosa,Singapore,F,7426166222644,44,28.9,106,70,250,63,0,0,0,0,0,0,1,0,0,0,0,12.5,Green
+Austin Friedman,Palestinian Territory,F,5652668429430,37,29.1,108,83,186,61,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Janet Jones,Oman,M,4960933761750,60,18.6,154,86,267,74,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Jeffrey Wilson,Guernsey,M,4584608611531,57,34.2,147,88,224,46,2,0,1,1,0,0,0,0,0,1,1,15.0,Orange
+Nicholas Guzman,Cocos (Keeling) Islands,M,6810595765673,51,19.8,132,88,205,56,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Robert Morales,Peru,M,3263701591056,29,41.2,134,91,166,64,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Mario Holden,Western Sahara,M,7095527841062,78,26.7,123,90,203,40,1,1,0,0,0,0,0,0,0,0,0,27.5,Red
+Diane Roberson,Cambodia,F,7953153429828,54,23.2,141,88,256,38,1,0,1,0,0,0,0,0,0,1,0,22.5,Orange
+Joseph Roberson,Guernsey,F,5696062310734,31,46.7,148,94,162,54,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Kellie Atkinson,Bhutan,F,0509906782510,29,36.9,143,90,169,37,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Kristina Tucker,Georgia,M,8132823501012,59,19.8,126,86,212,47,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Jenny Guerrero,Andorra,F,2430106575757,61,50.2,139,81,249,31,0,0,0,0,0,0,0,0,0,0,0,25.0,Red
+Bryan Woodward,Andorra,F,9157774181013,55,25.5,123,80,257,36,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Andrew Whitaker,Oman,F,7192031455287,57,29.8,125,94,200,52,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Sharon Wilson,Kyrgyz Republic,M,3119441616569,61,40.6,159,86,159,54,2,0,1,1,0,0,0,0,0,1,1,15.0,Orange
+Tanya Hoffman,Saint Kitts and Nevis,F,5607655231077,65,36.5,141,93,214,68,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Michelle Herrera,Albania,M,2159530471106,64,34.0,120,82,207,34,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Jennifer Price,Timor-Leste,M,7480038032618,31,23.8,127,74,189,60,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Mary Riley,Cook Islands,F,3984245404700,48,46.8,149,93,232,53,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Ashley Owens,Saint Helena,F,3904933930229,59,18.0,139,86,274,38,0,0,0,0,0,0,0,0,0,0,0,22.5,Orange
+Kimberly Ortiz,Antarctica (the territory South of 60 deg S),F,9917466000073,65,22.5,130,85,230,40,0,0,0,0,0,0,1,0,0,0,0,22.5,Red
+Alexis Lawson,Hong Kong,M,7302143870841,52,39.0,127,89,241,42,0,0,0,0,0,0,0,0,0,0,0,12.5,Orange
+Jeremiah Arroyo,Botswana,M,8726587738564,27,25.7,126,75,163,60,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Thomas Everett,Germany,M,2219713587519,60,35.1,136,90,150,35,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Cynthia Donaldson,Bouvet Island (Bouvetoya),M,3595069042353,33,27.7,103,65,213,33,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Rachel Lewis,Antigua and Barbuda,F,4559603616355,86,37.8,132,87,174,32,1,0,0,1,0,0,0,0,0,1,0,30.0,Red
+Lisa Edwards,Jordan,F,2315754645734,39,27.3,113,78,137,70,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Luis Martinez,Belgium,M,9510602756294,58,18.3,123,95,165,58,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Nathaniel Baker,Costa Rica,F,5155741147288,56,35.7,120,85,176,38,0,0,0,0,0,0,0,0,0,0,0,12.5,Orange
+Cristina Martin,Iran,M,5348862020275,37,23.6,106,79,191,31,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Veronica Salazar,Latvia,M,0613798065153,44,29.9,104,70,181,37,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Ryan Hill,Guam,F,0730155761098,61,19.8,138,81,239,56,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Darren Yu MD,Montserrat,F,4807347057584,66,23.8,143,87,273,48,1,0,1,0,0,0,1,0,0,1,0,32.5,Red
+Nicholas Miller,Angola,F,5500434119576,29,34.4,124,94,137,52,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Stephanie Munoz,Aruba,F,9396762823218,37,32.4,149,81,189,49,3,0,1,1,0,1,0,0,0,0,0,5.0,Orange
+Kelsey Holmes,Sao Tome and Principe,F,5436761759683,41,23.7,113,85,180,50,1,0,0,1,0,0,0,0,0,0,1,1.0,Orange
+Robert Edwards,Anguilla,M,3250387752208,76,36.3,152,89,190,71,2,1,1,0,0,0,0,0,0,1,0,27.5,Red
+Melanie Smith,Mauritania,M,1063645428232,62,34.9,148,90,165,66,2,1,1,0,0,0,0,0,0,1,0,20.0,Orange
+Mrs. Joy Taylor,Mayotte,F,4883634991939,66,30.3,130,92,261,59,0,0,0,0,0,0,1,0,0,0,0,27.5,Red
+Jonathan Sanders,Wallis and Futuna,M,6613929325075,85,22.1,131,89,278,46,0,0,0,0,0,0,0,0,0,0,0,32.5,Red
+Melissa Turner,Bolivia,M,6249418487926,32,23.1,109,79,190,59,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Diana Davis,Comoros,M,3961455876046,72,19.4,154,92,262,60,2,0,1,1,0,0,0,0,0,1,1,27.5,Red
+Cameron Rasmussen,South Africa,F,8527752407403,52,35.7,159,83,252,43,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Terry Davis,Madagascar,M,0813037880251,46,32.4,159,95,223,36,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Taylor Garcia,Mayotte,F,5673939103484,21,35.4,127,91,152,74,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jessica Adams,Guinea-Bissau,M,7311845838530,48,44.6,144,91,202,65,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Diana Johnson,Japan,M,3850616553233,73,24.9,135,92,234,71,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Brenda Butler,Syrian Arab Republic,F,9173842521086,52,35.3,123,82,172,31,0,0,0,0,0,0,0,0,0,0,0,10.0,Orange
+Mr. Cody Banks,Guadeloupe,F,2494308841195,35,28.4,123,73,150,68,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Jason Morris,American Samoa,M,4640930721048,76,24.0,136,83,190,69,2,1,1,0,0,0,0,0,0,0,0,25.0,Red
+Kelly Kelly,Denmark,M,6157822671742,53,21.8,147,94,259,41,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Darin Stanton,Japan,F,9496245843563,74,23.7,151,90,223,41,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Kayla Odonnell,British Virgin Islands,F,8669677523179,57,22.2,136,84,154,63,1,1,0,0,0,0,0,0,0,0,0,15.0,Orange
+Carmen Johnson,Kuwait,M,3056101155740,44,23.0,103,66,259,46,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Whitney Bolton,Bermuda,F,1400580052168,46,27.4,106,81,167,50,1,0,0,1,0,0,0,0,0,0,1,2.5,Orange
+Audrey Hatfield,Suriname,M,1481966622267,60,34.6,141,81,221,74,1,0,1,0,0,0,1,0,0,0,0,22.5,Red
+Kevin Ball,Vietnam,M,3658186497052,53,36.9,144,88,195,71,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Regina Pruitt,Poland,M,5599726332144,39,28.7,103,69,156,53,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Laura Owen,Mauritius,F,0452215546901,42,28.8,130,82,171,58,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Brenda Schmidt,Cape Verde,F,3250138716190,45,19.0,120,75,203,63,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Erica Kim,Antigua and Barbuda,M,0734934214560,56,21.4,140,95,278,69,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Jessica Lambert,Nauru,M,9772481299716,61,27.7,160,95,260,56,1,0,1,0,0,0,1,0,0,0,0,30.0,Red
+Jennifer Scott,Cote d'Ivoire,F,5918211119921,38,29.4,122,69,145,72,1,0,1,0,0,0,1,0,0,0,0,5.0,Green
+Michael Parker,Cuba,M,0355055803084,55,35.4,141,83,271,46,1,0,1,0,0,0,1,0,0,1,0,27.5,Orange
+Wendy Luna,India,M,2756717693339,57,21.1,152,82,182,39,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Catherine Williams,Uganda,M,8506502647634,65,43.6,136,90,266,51,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+Susan Kelly,Grenada,M,3893056593636,78,35.7,154,91,250,37,2,1,1,0,0,0,1,0,0,1,0,45.0,Red
+Melissa Doyle,Mexico,M,1891943992021,62,28.1,142,91,260,45,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Alejandro Lopez,Azerbaijan,M,5500266450199,65,28.0,159,89,246,50,1,0,1,0,0,0,1,0,0,1,0,32.5,Red
+Joseph Morris,Bahamas,M,2724545182042,46,21.1,113,71,269,45,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Kimberly Bowman,Barbados,F,6151196983173,47,31.1,147,83,185,75,2,0,1,0,0,1,1,0,0,1,0,12.5,Orange
+Cheryl Cox,Bolivia,M,2314373963304,55,36.4,156,81,176,55,2,1,1,0,0,0,0,0,0,1,0,20.0,Orange
+Ashley Cunningham,Greece,F,7414114795371,40,35.8,141,86,138,43,1,0,1,0,0,0,1,0,0,0,0,12.5,Green
+Christopher Malone,Myanmar,F,0581551858598,42,30.8,126,93,264,71,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+David Joseph,Argentina,M,7467426922133,56,22.4,140,84,215,66,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Amy Mendez,Ukraine,F,7865139391459,56,29.2,126,87,156,55,1,0,0,0,0,1,0,0,0,0,0,7.5,Green
+Jacob Morrison,Guadeloupe,F,3668816049599,71,21.4,131,94,234,33,0,0,0,0,0,0,0,0,0,0,0,25.0,Red
+Richard Drake,Peru,F,3581795141804,40,24.1,123,70,134,73,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Keith Moreno,North Macedonia,F,8093077023197,33,23.5,129,72,135,38,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Donna Sharp,Christmas Island,F,0220936544793,64,27.2,152,89,181,40,2,1,1,0,0,0,1,0,0,0,0,30.0,Red
+Laura Schroeder,El Salvador,F,7857603722890,55,20.1,120,92,218,41,1,0,0,0,0,1,0,0,0,0,0,10.0,Green
+Michael Hughes,Togo,M,6563518937618,38,26.6,104,80,163,64,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Matthew Velez,Portugal,F,7082810990330,29,21.3,123,67,143,49,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Karen Shaw,Albania,M,6124670679879,58,19.1,141,81,178,56,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Justin Evans,Bolivia,M,2160275335141,58,28.0,134,90,177,30,1,0,0,0,0,1,0,0,0,0,0,15.0,Orange
+Diana Johnson,Tuvalu,M,6920168747064,58,29.3,134,81,214,36,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Ebony Barnes,Papua New Guinea,F,2952549780135,68,19.4,140,86,163,49,2,0,1,1,0,0,0,0,0,0,1,15.0,Orange
+Eric Bailey,Benin,F,0447650525154,18,17.7,110,77,214,38,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Amanda Nixon MD,Gibraltar,M,9540612744271,68,28.3,148,93,262,48,1,0,1,0,0,0,1,0,0,1,0,32.5,Red
+Michele Oliver,Czech Republic,F,1679813559587,48,17.8,110,68,232,34,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+James Thomas,Japan,M,2280195625853,65,41.5,131,82,237,66,1,0,0,1,0,0,0,0,0,1,1,15.0,Orange
+Toni Brock,Korea,M,5119884692647,53,43.4,159,87,216,72,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Corey Adams,Malaysia,F,5709753336392,80,30.6,154,85,202,74,1,0,1,0,0,0,0,0,0,1,0,25.0,Red
+Christopher Hall,Oman,F,6104642344806,60,35.6,153,88,222,35,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Gregory Miller,Ethiopia,F,4911515128812,73,40.8,144,85,161,50,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Stephen Robinson,Nigeria,F,0657734617556,21,28.7,101,70,174,52,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Mr. Anthony Reyes,Tokelau,F,2491808951676,36,40.5,128,90,160,72,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Lee Diaz,French Guiana,M,7058171793323,46,20.2,120,68,264,59,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Katherine Mcdaniel,Faroe Islands,F,7199806844352,35,19.2,117,67,189,36,0,0,0,0,0,0,1,0,0,0,0,12.5,Green
+Timothy Davis,Falkland Islands (Malvinas),F,4511636443155,46,32.8,147,89,190,45,1,0,1,0,0,0,1,0,0,0,0,15.0,Orange
+Kyle Abbott,Micronesia,M,1949982696551,63,36.8,148,88,277,47,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Karen Sandoval,Kuwait,M,0241825300160,54,23.9,129,92,254,61,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Zachary Ware,Gabon,F,0127921162256,40,44.2,147,87,187,41,1,0,1,0,0,0,0,0,0,0,0,5.0,Green
+Jared Moore,Micronesia,F,8229167005273,32,31.4,121,94,216,71,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jonathan Nolan,Turkmenistan,M,1738159062530,38,42.5,160,93,179,49,1,0,1,0,0,0,1,0,0,1,0,12.5,Orange
+Misty Mitchell,New Zealand,F,5032036233720,64,39.5,155,82,269,60,2,1,1,0,0,0,0,0,0,0,0,30.0,Red
+Jesse Winters,Germany,F,8840332628464,84,28.4,156,86,215,37,1,0,1,0,0,0,0,0,0,0,0,32.5,Red
+Melissa Stevenson,Niue,M,8012862641903,56,41.1,128,87,274,48,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Chelsea Ward,Montserrat,F,8061926601476,62,20.5,157,80,159,69,1,0,1,0,0,0,1,0,0,0,0,20.0,Orange
+Alfred Torres,New Zealand,M,8235536610221,61,31.1,157,84,237,51,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Kristi Ortiz,North Macedonia,F,2821496823557,88,32.5,148,85,258,65,1,0,1,0,0,0,1,0,0,1,0,40.0,Red
+Dawn Reynolds,Bolivia,M,2266354655893,49,28.9,126,70,224,33,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Karl Williams,Guadeloupe,F,6110537770483,62,22.6,139,83,216,52,1,1,0,0,0,0,0,0,0,0,0,22.5,Red
+Dennis Odom,Bahrain,F,7624477462081,75,37.2,140,94,242,61,2,1,1,0,0,0,0,0,0,0,0,32.5,Red
+Jacob Davidson,Swaziland,M,2234811653348,41,30.1,151,87,215,48,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Ashley Hardy,Reunion,F,3108774845814,76,24.4,123,83,209,49,1,0,0,1,0,0,0,0,0,0,1,20.0,Orange
+Mr. Joshua Silva,Mali,M,2497360020737,62,32.1,138,94,258,65,1,1,0,0,0,0,0,0,0,0,0,25.0,Red
+Amy Simmons,Cape Verde,F,2762339151959,77,28.7,139,83,191,49,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Roberta Harris,Cook Islands,M,2925250360224,52,40.6,132,85,280,56,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Judy Vega,Macao,M,5633120585369,34,16.9,126,67,192,71,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Rebecca Allen,Micronesia,M,1184303849043,38,19.9,111,72,163,52,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Janet Martinez,Hong Kong,F,0645273557914,52,35.1,145,81,258,63,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Mark Morgan,Somalia,M,4445149699283,45,23.3,107,74,269,49,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Stacey Larson,Suriname,F,5283948718625,81,29.6,151,92,259,64,1,0,1,0,0,0,0,0,0,0,0,30.0,Red
+Deborah Smith,Namibia,F,2695953830774,49,34.9,142,95,216,64,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Adam Yang,Iraq,M,3441541250221,40,35.1,151,90,202,40,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Sheryl Mcdaniel,Netherlands Antilles,M,2726016954585,32,18.3,108,78,202,46,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Timothy Smith,Maldives,M,7887417097891,51,22.9,135,80,217,36,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Robert Stevens,Somalia,F,7973401960637,77,28.4,132,92,222,74,0,0,0,0,0,0,1,0,0,0,0,27.5,Red
+Kayla Taylor,South Africa,M,1681478674932,60,18.3,154,92,273,32,1,0,1,0,0,0,0,0,0,1,0,27.5,Red
+Ricky Padilla,Mali,M,8071005903698,35,34.2,159,91,171,57,1,0,1,0,0,0,0,0,0,0,0,5.0,Orange
+Tanner Grant,Central African Republic,F,9249989085825,67,35.1,143,88,212,61,2,0,1,1,0,0,0,0,0,1,0,17.5,Orange
+Marc Williams,Saint Helena,M,5146765075015,75,33.3,132,88,227,31,0,0,0,0,0,0,0,0,0,0,0,27.5,Red
+Melissa Harrison,Kiribati,F,5663682669757,60,20.0,142,91,262,74,1,0,1,0,0,0,1,0,0,0,0,27.5,Red
+Derrick York,Kiribati,F,1549594693537,27,17.8,126,83,220,37,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Eric Castro,American Samoa,M,4182355286905,77,36.8,124,93,183,58,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Justin Flores,Western Sahara,M,4746974536829,65,33.8,139,86,227,31,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+Michelle Rhodes,Lebanon,M,2960344870302,39,29.3,117,65,132,65,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Katherine Butler,Hong Kong,M,1902863342329,65,39.1,143,94,214,65,2,1,1,0,0,0,0,0,0,0,0,25.0,Red
+Natalie Reed,Montenegro,F,7606563502451,69,14.7,142,95,181,48,2,1,1,0,0,0,0,0,0,1,0,25.0,Red
+Kristen Suarez,Sweden,F,7255035617461,39,47.3,146,95,211,30,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Jessica Aguirre,Jordan,M,7929988305538,61,19.9,160,91,187,39,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Courtney Franklin,Saudi Arabia,F,0435472213038,63,33.5,146,86,260,43,1,0,1,0,0,0,1,0,0,0,0,30.0,Red
+Alicia Davis,Mozambique,F,6280230896084,61,37.8,155,82,220,46,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Marilyn Wright,Bangladesh,F,9028354518911,36,24.3,116,84,183,35,0,0,0,0,0,0,1,0,0,0,0,12.5,Green
+Mr. Calvin Ward,Lao People's Democratic Republic,M,7650103013891,58,27.2,160,83,280,68,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Robert Garcia,Malaysia,F,8006741865856,40,45.3,120,84,170,53,1,0,1,0,0,0,0,0,0,0,0,1.0,Green
+Kelly Wilson,Azerbaijan,F,7202199970475,28,26.3,126,85,190,73,1,1,0,0,0,0,0,0,0,0,0,5.0,Green
+David Dunn,Norway,M,5174470571010,20,41.0,128,91,144,57,1,0,0,0,0,1,1,0,0,0,0,7.5,Green
+Natasha Kennedy,Antigua and Barbuda,F,9587430779726,78,32.8,122,83,200,51,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Jennifer Cervantes,Cambodia,M,0715023448066,65,16.9,152,93,253,71,2,0,1,1,0,0,1,0,0,1,1,30.0,Red
+Julie Ford,Madagascar,F,4542563288618,60,23.8,151,89,237,36,1,0,1,0,0,0,1,0,0,0,0,30.0,Red
+James Houston,Israel,F,4448316335014,32,48.7,121,94,139,47,1,0,1,0,0,0,0,0,0,0,0,1.0,Green
+Amanda Weber,Madagascar,F,7162046986380,52,24.5,145,83,198,52,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Mary Holloway,United Arab Emirates,M,5971167540676,65,43.6,132,88,176,62,0,0,0,0,0,0,0,0,0,0,0,12.5,Orange
+Joseph Thomas,Oman,M,2638766759320,34,26.3,129,82,189,74,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Bradley West,Guinea-Bissau,F,6667810697086,69,28.4,156,94,235,33,1,0,1,0,0,0,1,0,0,1,0,32.5,Red
+Philip Rodriguez,Aruba,F,9239583835063,65,24.1,127,91,211,37,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Donald Watkins Jr.,Niue,F,3848250143750,69,25.5,154,88,248,63,1,0,1,0,0,0,0,1,0,0,0,22.5,Red
+Cynthia Reeves,Dominican Republic,M,6141314795962,55,29.4,156,94,176,58,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Belinda Simpson,Philippines,M,4876771612065,60,16.2,154,92,191,75,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Carla Zimmerman,Turks and Caicos Islands,M,7009658604991,35,28.3,107,82,201,31,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Monica Schultz,Costa Rica,M,6210974439643,93,29.9,123,84,232,52,2,0,1,1,0,0,1,0,0,0,0,35.0,Red
+James Moore,Croatia,M,7419722143040,36,20.3,109,81,216,44,1,0,1,0,0,0,0,0,0,0,0,2.5,Green
+Jason Wiggins,Antigua and Barbuda,F,2051929451983,56,21.3,143,81,241,40,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+James Hanson,Sri Lanka,M,5165999211952,53,39.9,160,95,179,74,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Kellie Fox,Romania,F,8736532112134,34,22.5,109,68,204,38,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Alexis Odonnell,Barbados,M,5797565046875,56,45.6,148,85,260,47,1,0,1,0,0,0,1,0,0,0,0,27.5,Orange
+Gregory Johnson,Lebanon,F,5942651785064,20,31.1,132,95,145,52,0,0,0,0,0,0,1,0,0,0,0,10.0,Green
+Peter Scott,Christmas Island,F,9692784260056,65,36.2,147,95,238,49,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Valerie Lucas,Moldova,M,9340055410685,91,21.8,151,89,223,32,1,0,1,0,0,0,0,0,0,0,0,37.5,Red
+Jonathan Owen,Jordan,M,1861313803417,63,40.2,123,90,221,74,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Christine Figueroa,Cape Verde,F,7730910627211,63,18.1,146,91,230,53,2,1,1,0,0,0,0,0,0,1,0,25.0,Red
+Isaiah Miller,Djibouti,M,4753046571060,60,28.9,144,95,235,35,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Elizabeth Curtis,Saint Vincent and the Grenadines,F,0300411587207,31,33.6,151,86,172,68,1,0,1,0,0,0,0,0,0,0,0,2.5,Orange
+Jonathan Arroyo,Cook Islands,M,9461177621909,31,34.8,135,80,205,46,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+James Armstrong MD,Vietnam,M,8635996619244,37,21.6,112,67,177,43,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Andrew Martinez,Papua New Guinea,M,4319445029436,81,44.4,149,91,176,64,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Felicia Wells,Cote d'Ivoire,F,7718257177392,38,24.7,112,69,210,40,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+David Caldwell,Niue,F,7589972791305,43,22.1,101,79,253,31,0,0,0,0,0,0,1,0,0,0,0,20.0,Orange
+Andre Phillips,Angola,F,8943157221350,77,20.9,133,91,218,46,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Julie Fisher,Senegal,F,0061432486770,86,28.6,144,94,152,72,2,0,1,0,0,1,0,1,0,0,0,25.0,Red
+Sharon King,Switzerland,M,9546638020306,49,27.0,124,76,269,55,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Tiffany Cortez,Botswana,F,9001919056691,22,46.7,145,85,214,41,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Seth Ayala,Namibia,F,0055921328825,57,29.7,153,91,153,46,1,0,1,0,0,0,1,0,0,1,0,20.0,Orange
+John Frazier,Fiji,M,7089861354562,55,27.2,125,80,205,56,1,0,0,1,0,0,0,0,0,0,1,10.0,Orange
+Timothy Rhodes,French Polynesia,M,6238656621940,55,24.8,135,85,239,67,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Regina Liu,Zambia,M,6289260307683,68,46.3,155,91,276,50,2,1,1,0,0,0,0,0,0,0,0,32.5,Red
+Mary Pierce,Micronesia,M,3336948354071,55,33.1,146,93,277,75,2,0,1,1,0,0,0,0,0,0,0,17.5,Orange
+Kristine Alvarado,Namibia,M,7933079654511,56,28.4,139,89,214,38,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Caitlin Gonzales,Estonia,M,7631175545862,62,49.5,131,95,208,34,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Amy Morrison MD,Puerto Rico,F,9272591735949,34,25.8,129,71,181,46,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Marcus Lowe,Dominica,M,9856899753487,70,21.5,136,93,278,55,1,0,1,0,0,0,0,0,0,0,0,25.0,Red
+Hayden Davis,Mayotte,M,6723276105425,80,23.0,126,89,241,63,1,0,0,1,0,0,0,0,0,1,1,25.0,Red
+Elijah Ramirez,Brunei Darussalam,M,1975417988953,46,22.2,128,84,242,65,1,0,1,0,0,0,1,0,0,0,0,15.0,Orange
+Rebecca Heath,Grenada,M,0535111459558,37,16.1,113,77,155,50,1,0,0,0,1,0,0,0,0,0,0,1.0,Green
+Sydney Jackson,Jamaica,M,1785230297794,35,18.0,110,77,193,35,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Allison Thomas,Poland,M,4470895398586,51,21.8,128,80,274,49,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Lisa Wolfe,Burkina Faso,F,9755495849672,56,39.6,160,85,191,40,2,0,1,0,0,1,1,0,0,1,0,20.0,Orange
+Jennifer Whitaker,Albania,M,4896138370919,58,26.2,145,90,182,41,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Andrew Garcia,Korea,F,0280787560496,53,23.5,125,82,254,63,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Michelle Torres,Botswana,F,4888414796148,43,41.9,128,90,186,70,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Breanna Brown,Congo,M,3792034343785,50,40.4,147,81,194,64,1,0,1,0,0,0,1,0,0,0,0,15.0,Orange
+Tony Lewis,Vietnam,M,6765478975918,54,22.3,159,86,178,74,1,0,1,0,0,0,1,0,0,1,0,15.0,Orange
+Jennifer Smith,Saint Pierre and Miquelon,F,8365475602015,27,30.9,136,86,195,63,1,1,0,0,0,0,0,0,0,0,0,7.5,Green
+Casey Cervantes,Guinea-Bissau,M,1728886527303,70,29.1,127,89,245,38,2,1,0,0,1,0,0,0,0,0,0,35.0,Red
+Lori Ford,Guinea-Bissau,M,3882971288314,53,28.4,159,80,259,62,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Ralph Sharp,Korea,M,8175828181742,31,30.8,157,90,204,74,1,0,1,0,0,0,0,0,0,0,0,5.0,Orange
+Melanie French,Ukraine,M,7627311892464,82,37.8,154,87,192,37,2,1,1,0,0,0,0,0,0,0,0,37.5,Red
+Jesus Strickland,Sao Tome and Principe,F,2886239878447,63,38.2,138,81,159,58,1,1,0,0,0,0,1,0,0,0,0,27.5,Red
+Brittany Taylor,India,F,4931540434597,36,21.3,129,68,204,49,2,0,1,1,0,0,1,0,0,1,0,10.0,Orange
+Ashley Hudson,Panama,F,3687677651581,61,33.2,129,89,256,46,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Kelly Baldwin,Brazil,M,7220842663390,62,37.6,159,84,185,52,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Rachel Terry,Saint Pierre and Miquelon,M,7571470119699,59,23.4,129,86,181,56,2,0,1,0,1,0,1,0,0,0,0,15.0,Orange
+John Jones,Ireland,M,4386498827074,86,36.1,156,91,239,64,1,0,1,0,0,0,0,0,0,1,0,27.5,Red
+Eric Moore,Bangladesh,M,0079107525518,90,36.1,159,92,164,73,2,0,1,1,0,0,0,0,0,1,0,27.5,Red
+Sarah Newman,Montenegro,F,4556436450453,28,47.2,138,85,163,35,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Joseph Rivera,Uruguay,M,9099348469229,62,28.7,126,82,248,45,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Autumn Reyes,Guam,M,9602477066339,64,22.9,154,86,184,73,2,1,1,0,0,0,0,0,0,0,0,20.0,Orange
+Terri Horne,Mayotte,F,3029874899326,32,24.9,127,75,181,64,1,0,1,0,0,0,0,0,0,0,0,1.0,Green
+Henry Erickson,Bermuda,M,7757830256635,74,38.8,132,90,202,67,1,0,1,0,0,0,1,0,0,1,0,25.0,Red
+Maria Joseph,Greenland,M,0789132072849,33,28.8,121,82,207,44,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Alan Johnson,Mozambique,F,4775223995612,23,31.1,121,88,163,51,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Kimberly Gomez,Portugal,F,2726276989754,64,30.1,133,89,266,70,2,1,1,0,0,0,0,0,0,0,0,25.0,Red
+Amanda Perry,Iran,F,8827668100413,24,23.2,129,68,209,36,1,0,0,0,0,1,0,0,0,0,0,7.5,Green
+Melissa Guerra,Peru,F,1826660098114,25,39.9,135,81,167,52,0,0,0,0,0,0,1,0,0,0,0,10.0,Green
+Anne Hall,Bulgaria,F,1318673759361,62,30.8,195,88,271,47,1,0,1,0,0,0,0,0,0,1,0,27.5,Red
+Heather Mullins,Switzerland,F,6004919361140,51,28.1,193,84,186,40,1,0,1,0,0,0,1,0,0,0,0,22.5,Red
+Cassandra Banks,Swaziland,F,7480805725668,53,26.2,190,84,276,73,1,0,1,0,0,0,1,0,0,0,0,27.5,Red
+Sandra Sanders,United States of America,M,7148739598009,36,29.7,111,75,141,41,1,0,0,0,0,1,1,0,0,0,0,7.5,Green
+Beverly Reid,Cuba,F,6288757571897,51,25.5,157,83,223,32,1,0,1,0,0,0,1,0,0,1,0,25.0,Orange
+Yvette Hunt,United States Virgin Islands,M,4120711430043,42,22.8,121,79,254,51,1,0,0,0,0,1,0,0,0,0,0,7.5,Green
+Jennifer Mccann,Netherlands,M,6666161361950,42,25.1,110,67,178,66,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jeremiah Romero,Italy,M,6207008933925,31,31.1,156,86,197,52,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Ryan Shaw,Suriname,M,9213900167020,63,36.6,122,87,154,60,0,0,0,0,0,0,0,0,0,0,0,10.0,Orange
+William Bryant,Indonesia,M,8151256562230,43,17.9,130,67,160,43,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Arthur Parrish,Eritrea,M,7152545790854,23,21.4,105,79,167,31,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Maureen Simmons,Armenia,M,1524739496747,73,31.2,154,90,219,65,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Donald Guerra,Singapore,F,3153628085571,55,39.0,133,94,254,40,1,0,0,0,1,0,0,0,0,0,0,17.5,Orange
+Cynthia Powell,Rwanda,F,3653410281360,65,34.0,160,92,162,69,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Virginia Gillespie,Ukraine,M,0948480347621,40,24.6,109,72,147,56,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Erin Castro,Slovenia,M,3822197580519,34,20.5,116,68,157,63,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Julia Vargas,Singapore,F,3448864654699,20,36.7,133,91,194,33,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Jacqueline Reyes,Liberia,F,0389621187353,59,18.9,145,85,232,53,1,0,1,0,0,0,1,0,0,0,0,22.5,Orange
+Audrey Gallagher,Libyan Arab Jamahiriya,F,4442666185664,57,29.4,151,81,250,61,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Rebecca Harrell,Bhutan,F,7593249575628,61,48.5,158,86,262,33,2,1,1,0,0,0,0,0,0,0,0,35.0,Red
+Kelly Williams,Malaysia,M,9482826384198,65,19.6,136,95,162,60,1,0,0,1,0,0,0,0,0,1,1,15.0,Orange
+Patrick Wyatt,Lesotho,M,3314672323228,85,29.9,151,85,152,51,2,1,1,0,0,0,0,0,0,0,0,35.0,Red
+Mark Rogers,Azerbaijan,M,6795321633771,34,37.1,143,89,183,50,1,0,1,0,0,0,1,0,0,0,0,12.5,Green
+Daniel Vega,Equatorial Guinea,F,3108502802317,42,17.1,108,70,206,51,1,0,0,0,0,1,0,0,0,0,0,2.5,Green
+Dustin Patterson,Grenada,F,0102513190107,83,39.4,124,93,256,60,1,0,0,1,0,0,0,0,0,0,1,27.5,Red
+James Collins,Tanzania,M,8657665907100,54,33.6,132,90,255,62,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Dustin Bright,Azerbaijan,F,7328291654027,53,39.0,134,92,203,70,0,0,0,0,0,0,0,0,0,0,0,7.5,Orange
+Ariel Harvey,Guatemala,F,7653314354982,82,25.4,135,94,238,69,1,1,0,0,0,0,1,0,1,0,0,37.5,Red
+Bethany Fox,Singapore,F,0680095281715,65,49.1,134,88,188,50,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Christian Davis,Guadeloupe,F,6185563798688,49,22.5,130,67,239,63,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Anita Luna,Colombia,M,0921539159666,81,46.8,143,95,225,40,1,0,1,0,0,0,1,0,0,0,0,35.0,Red
+Amy Olsen,Papua New Guinea,F,9823234019324,55,49.3,145,81,220,47,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Leah Adams,Chad,F,0561578980687,26,23.0,122,69,185,43,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Maria Johns,Lesotho,F,6385751973105,61,28.4,122,91,160,45,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Nicholas Arias,Colombia,M,0145882450014,36,35.6,144,89,189,69,2,1,1,0,0,0,1,0,0,1,0,17.5,Orange
+Cameron May,Iran,M,9067202318136,56,24.3,146,93,272,34,1,0,1,0,0,0,0,0,0,0,0,25.0,Orange
+James Davis,Korea,F,5076706427743,38,18.1,116,78,211,36,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Rebecca Blair,Malaysia,F,1539040535085,46,22.0,126,68,219,35,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Judy Chen,Croatia,F,2007296199058,22,34.2,125,84,141,50,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Mr. Christopher Gonzales DDS,Vietnam,F,2529397433409,46,29.2,107,74,256,50,2,1,1,0,0,0,0,0,0,0,0,17.5,Orange
+Christina Schneider,Philippines,F,8405616687386,54,28.1,139,91,240,67,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Joseph Wilson,Trinidad and Tobago,M,1753867491731,57,33.3,154,88,205,31,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Kenneth Parrish,Niger,F,8870689846686,56,35.4,149,91,260,31,1,0,1,0,0,0,0,0,0,1,0,25.0,Orange
+Jon Garrison,Cocos (Keeling) Islands,M,7277961170520,22,30.6,149,91,166,42,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Christian Jones,Liberia,F,0153971128379,38,17.7,125,84,148,43,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Daniel Miller,Malta,M,9522747499028,49,23.4,125,82,276,43,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Cheryl Waller,San Marino,F,9026381561979,52,26.3,153,92,168,53,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Kimberly Rogers,Antarctica (the territory South of 60 deg S),F,6403905701210,34,21.3,116,76,174,44,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Dr. Douglas Gordon,Angola,M,5239917719421,41,26.5,116,74,250,38,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Aimee Melton,Ukraine,M,0554707177607,25,27.4,109,69,212,65,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+Amy Wise,Philippines,M,9876892566174,24,31.4,158,91,134,31,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Brittany Barnes,Congo,M,9972559001474,73,32.0,128,94,165,56,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Deborah Johnson,Albania,F,0459603244821,64,15.6,132,83,253,36,0,0,0,0,0,0,0,0,0,0,0,25.0,Red
+Laura Coleman,Marshall Islands,F,3439336322451,90,19.9,144,86,277,60,1,0,1,0,0,0,1,0,0,1,0,45.0,Red
+Nathan Bates,Seychelles,M,9207690651074,51,29.0,141,85,223,68,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Connie Johnson,Kenya,M,5305529722422,34,23.0,104,78,188,48,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Brittany Mathis,Morocco,F,5014532823810,73,46.9,145,88,209,35,3,1,1,1,0,0,0,0,0,1,1,35.0,Red
+Brenda Fields,Equatorial Guinea,M,8943317622119,76,33.0,157,84,241,48,3,1,1,1,0,0,1,0,0,0,1,45.0,Red
+John Ferguson,Moldova,M,2094179653608,40,16.1,190,75,192,73,1,0,1,0,0,0,0,0,0,0,0,7.5,Red
+Jacob Daniel,Liberia,F,3102287827343,95,35.1,122,87,216,63,1,1,0,0,0,0,0,0,0,0,0,35.0,Red
+Emily Salazar,Korea,M,7142505595117,51,35.3,160,85,233,47,1,0,1,0,0,0,1,0,0,1,0,20.0,Orange
+Joan Thompson,British Indian Ocean Territory (Chagos Archipelago),M,1620294769774,70,30.9,144,85,152,54,2,1,1,0,0,0,0,0,0,1,0,27.5,Red
+Brian Clark,French Southern Territories,F,7681771100491,73,32.0,158,89,274,56,2,0,1,1,0,0,0,0,0,1,1,27.5,Red
+William Fisher,Cyprus,F,1990921184219,37,42.3,126,85,146,72,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Laurie Whitehead,Bahrain,M,3540525661371,39,15.4,101,77,202,61,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Casey Mejia,Guadeloupe,F,1281942894325,62,28.4,139,86,247,37,0,0,0,0,0,0,0,0,0,0,0,25.0,Red
+Brittany Hill,Austria,F,6434652805586,57,17.7,141,81,278,35,1,0,1,0,0,0,0,0,0,0,0,25.0,Orange
+Martin Bell,Egypt,F,2360019787056,47,47.6,129,87,271,54,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Monique Jacobson,Saint Kitts and Nevis,M,9948656056174,40,21.1,129,67,166,51,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+James Mata,Trinidad and Tobago,F,7099253600375,50,21.0,113,76,187,63,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Alyssa Hernandez,Guinea-Bissau,M,1995029404566,54,34.2,139,82,159,59,2,0,0,0,1,1,0,0,0,0,0,7.5,Orange
+Angela Rhodes,Somalia,M,2410120414997,39,35.7,147,82,181,46,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Kevin Francis,Monaco,F,9859496176260,60,27.7,159,87,187,62,2,0,1,1,0,0,1,0,0,1,1,20.0,Orange
+Crystal Morris,Singapore,F,3942477741451,56,36.8,122,89,276,72,0,0,0,0,0,0,0,0,0,0,0,12.5,Orange
+Robert Rivera,Gibraltar,M,7751669824713,32,24.9,102,72,196,64,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Miranda Robinson,Saint Vincent and the Grenadines,F,8577083896957,53,22.1,137,85,150,54,1,0,0,0,1,0,0,0,0,0,0,7.5,Green
+Michael Campbell,Guadeloupe,F,8275645345621,60,27.4,158,92,162,75,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Craig Brown,Ireland,M,0877811600121,61,46.1,148,80,181,63,2,1,1,0,0,0,0,0,0,0,0,20.0,Orange
+Robert Kelly,Niue,F,1070158345352,25,38.1,122,87,181,73,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Michael Johnson,Taiwan,M,7176565722251,65,17.2,129,93,277,50,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Jessica Daniels,Samoa,M,9760590778314,55,24.1,126,92,259,51,1,1,0,0,0,0,0,0,0,0,0,22.5,Orange
+William Rogers,Norfolk Island,F,2897661687347,53,31.6,143,81,230,71,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Craig Lawson,Nauru,M,5726308898228,63,45.3,156,81,161,47,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Dr. Wayne Harmon DDS,Dominican Republic,M,9262900729837,36,30.1,125,82,169,46,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Allison Cain,Moldova,M,9499536777752,57,26.0,151,88,183,73,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Terry Robbins,Lithuania,F,1709907435685,79,20.0,130,94,165,59,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Edward Lopez DDS,Mongolia,F,7873617320198,52,31.6,160,93,160,50,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Barbara Jones,Qatar,F,1782183972235,44,41.7,159,90,181,60,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Jose Chavez,Azerbaijan,M,6057691127688,92,33.9,141,87,236,74,3,1,1,1,0,0,0,0,0,1,0,37.5,Red
+Sean Ball,Guam,M,2867767483075,79,28.7,158,85,158,48,2,1,1,0,0,0,0,0,0,0,0,30.0,Red
+Gordon Contreras,Kyrgyz Republic,M,9659635986411,27,33.3,134,81,132,36,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Charles Cooke,Dominica,M,5797263817227,80,31.8,157,94,168,73,2,0,1,1,0,0,1,0,0,0,0,30.0,Red
+Amanda Hess,American Samoa,M,5499508957186,67,19.9,155,93,169,74,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Erica Smith,United States of America,F,3479727932135,38,21.4,102,85,211,51,1,0,0,0,0,1,1,0,0,0,0,10.0,Green
+Matthew Wright,Jersey,F,4880586185164,65,40.6,137,94,272,63,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Samuel Carter,Burkina Faso,M,5313996179724,62,35.5,141,89,162,72,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Rachel Dyer,Panama,M,9034646315328,24,24.6,100,65,141,46,1,1,0,0,0,0,0,0,0,0,0,7.5,Green
+Rachael Hall,Trinidad and Tobago,F,2374965837406,64,17.8,136,91,195,38,1,0,1,0,0,0,1,0,0,0,0,25.0,Red
+Marie Hernandez,Benin,F,8453093694168,45,31.1,150,82,183,59,2,1,1,0,0,0,0,0,0,1,0,15.0,Orange
+John Gonzalez,Czech Republic,M,5964069185168,62,22.3,139,94,250,61,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Ronald Rose,Maldives,M,0631893947389,59,36.3,155,91,185,36,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Joann Ramirez,Djibouti,M,6900685835987,88,32.3,121,82,222,59,3,1,1,0,0,1,0,0,0,1,0,32.5,Red
+Laura Arellano,American Samoa,F,7856672605363,29,26.3,106,70,152,42,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Karen Warren,South Africa,M,6764772794522,73,27.4,148,95,222,61,2,0,1,0,0,1,1,0,0,1,0,27.5,Red
+Shannon Randall,Bermuda,M,4180608435735,48,21.3,120,66,184,49,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Brian Goodwin,Gibraltar,M,6516668844558,68,42.7,140,89,255,44,2,0,1,1,0,0,0,0,0,1,1,22.5,Red
+Samantha Johnston,Algeria,F,1115762996139,26,29.4,103,66,175,46,1,0,0,0,0,1,0,0,0,0,0,1.0,Green
+Amber Spencer,Jamaica,F,3738073926169,79,21.7,123,84,257,37,1,0,0,0,0,1,0,0,0,0,0,30.0,Red
+David Jones,Papua New Guinea,F,5024369103375,62,22.7,138,90,162,42,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Alan Nicholson,Grenada,F,6621283953483,56,25.1,143,88,231,46,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+William Park,Sierra Leone,M,1730153806776,23,34.3,155,87,187,39,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+Rhonda Trujillo,Kuwait,F,3582046665544,61,35.3,126,86,152,33,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Jeffrey Morton,Guyana,M,5190396706510,59,39.1,136,90,194,52,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Adrian Livingston,Niger,M,4525590873316,60,44.6,149,80,276,54,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Paul Williams,Trinidad and Tobago,M,0607192890893,74,31.1,137,87,267,62,1,1,0,0,0,0,0,0,0,0,0,30.0,Red
+Dawn Baker,Egypt,M,9980570340854,63,19.0,135,86,167,33,1,1,0,0,0,0,1,0,0,0,0,32.5,Red
+Cole Pugh,Samoa,M,0444401618905,58,36.4,137,82,255,54,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Katrina Roberts,British Virgin Islands,M,1721693264805,92,19.9,185,85,274,40,2,0,1,0,1,0,0,0,0,1,0,42.5,Red
+Daniel Arnold,French Polynesia,F,2941066695985,32,17.9,122,66,165,64,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Melissa Moyer,Benin,F,8221045562267,56,18.1,123,94,198,67,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Benjamin Williams MD,Armenia,F,8985120443475,72,24.5,150,90,215,41,2,1,1,0,0,0,0,0,0,1,0,30.0,Red
+Brandon Page,Algeria,F,0879295736167,46,38.8,134,92,208,31,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Jordan Barnes,Reunion,F,7917820147163,39,27.2,124,68,195,51,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+George Jones,Faroe Islands,M,5676186854383,21,34.7,154,84,162,66,1,0,1,0,0,0,1,0,0,1,0,10.0,Orange
+Cheryl Baker,Venezuela,F,7162603555196,71,21.8,140,94,152,55,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Jessica Chen,Botswana,M,7782105676252,54,41.4,126,90,158,68,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Kimberly Young,Cyprus,F,9380473803683,65,39.1,125,84,254,54,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Derek Fox,Zambia,F,9796968947709,59,27.7,152,93,262,46,1,0,1,0,0,0,1,0,0,1,0,27.5,Orange
+Stephen Bryant,Sri Lanka,F,3031478709789,79,22.9,134,84,235,39,1,1,0,0,0,0,0,0,0,0,0,35.0,Red
+David Peters,Nauru,F,7757608050441,52,22.3,134,85,156,36,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Daniel Mathews,France,F,6581931820201,54,44.2,160,93,182,46,2,1,1,0,0,0,0,0,0,0,0,17.5,Orange
+Steven Cross,Monaco,F,1447506783317,64,34.6,137,82,168,33,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+William Harris,Georgia,M,7597894068320,61,49.3,141,82,274,36,2,1,1,0,0,0,0,0,0,0,0,35.0,Red
+Melissa Miller,Thailand,M,5249179137741,24,21.3,114,79,215,31,0,0,0,0,0,0,1,0,0,0,0,15.0,Orange
+Anthony Cervantes,Indonesia,F,5643288644457,56,24.9,141,85,248,54,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+William Brady,Ecuador,F,2579555862374,86,31.3,156,92,152,46,1,0,1,0,0,0,0,0,0,1,0,27.5,Red
+Brandon Raymond,Liechtenstein,M,9535301077235,53,39.5,148,85,157,42,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+James Hull,Hong Kong,F,3765451651603,70,21.5,130,95,266,36,1,1,0,0,0,0,0,0,0,0,0,35.0,Red
+Samantha Hayes,Palau,M,9240774747775,66,32.5,132,83,254,72,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Christopher Smith,Greenland,M,5640784396804,54,32.8,144,90,260,46,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Amanda Thomas,Grenada,M,3138391198215,53,23.8,121,90,154,39,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Heather Campbell,Niue,F,7932840610695,50,28.4,109,67,220,32,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Christine Robles,British Virgin Islands,M,7490206997267,59,48.5,160,92,232,31,1,0,1,0,0,0,0,0,0,1,0,20.0,Orange
+Aaron Nguyen,Wallis and Futuna,M,6118145896779,55,24.3,120,87,277,52,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Sean Morris,Hong Kong,M,5980623877614,81,36.9,140,95,201,61,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Crystal Rollins,Namibia,F,4513937009597,36,29.6,113,79,197,48,1,1,0,0,0,0,0,0,0,0,0,7.5,Green
+Jennifer Hunt,Madagascar,F,0063574170036,53,21.6,186,81,234,70,2,0,1,0,0,1,0,0,0,0,0,15.0,Red
+Jonathan Anderson,Iceland,F,5126096964271,35,19.9,115,66,176,55,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Michael Lucas,Nigeria,M,5348857829098,39,24.3,115,84,152,53,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Russell Sellers,Philippines,M,1736537231240,61,31.2,135,86,245,55,2,0,1,0,0,1,0,0,0,0,0,20.0,Orange
+Julia Freeman,Argentina,F,6040152746603,45,35.0,146,95,265,68,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Megan Morris,South Georgia and the South Sandwich Islands,F,3604904147464,46,37.7,146,94,224,41,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Anthony Graham,Nigeria,F,7164595942725,69,29.4,122,83,194,66,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Terri White,Faroe Islands,F,9035931081430,65,27.7,150,85,177,35,1,0,1,0,0,0,0,0,0,0,0,22.5,Red
+Gregory Cortez,Heard Island and McDonald Islands,M,2571571619703,55,34.4,131,80,207,31,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Jose Stokes,Netherlands Antilles,F,4453445041583,64,27.4,146,86,192,74,1,0,1,0,0,0,1,0,0,0,0,20.0,Orange
+David Dillon,San Marino,F,2956691022921,63,16.0,136,91,162,54,1,1,0,0,0,0,0,0,0,0,0,20.0,Orange
+Julian Burke,Guernsey,M,5288048904411,26,29.4,118,85,214,31,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Stephanie Schneider,Sweden,F,8358413786823,39,20.7,119,71,150,48,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+James Stone,India,F,9278638091948,55,23.1,141,86,170,52,2,1,1,0,0,0,0,0,0,0,0,20.0,Orange
+Kevin Fleming,Afghanistan,F,4232291462298,59,23.2,145,81,253,65,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Michael Bates,Malawi,M,2150597064287,33,30.5,152,92,198,58,1,0,1,0,0,0,1,0,0,0,0,12.5,Orange
+Zachary Carpenter,Sao Tome and Principe,M,1414660003285,48,22.9,128,71,199,48,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Brad Shields,Argentina,M,2353914630930,30,29.3,106,76,163,66,1,0,0,1,0,0,0,0,0,0,1,1.0,Orange
+Jordan Garrison,Brunei Darussalam,F,7935890828621,43,27.8,107,70,183,40,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+Elizabeth Leonard MD,Chile,F,9792950802544,31,33.4,133,89,201,62,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Jaime Martinez,Czech Republic,M,9515134761228,77,18.9,125,84,190,62,2,1,0,1,0,0,0,0,0,0,0,22.5,Red
+Steven Miller,France,M,3275373296719,61,18.5,140,80,223,64,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Michael Clarke,Slovakia (Slovak Republic),M,6738897840907,65,43.3,120,80,167,61,1,1,0,0,0,0,0,0,0,0,0,17.5,Orange
+Tammy Robinson,Micronesia,F,3414791180617,52,49.6,130,92,252,68,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+Kayla Torres,French Southern Territories,F,9037131632559,48,27.7,124,79,262,72,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Erin Rivera,Switzerland,M,7084428031061,35,18.9,123,73,188,44,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jennifer Giles,Jamaica,F,9349155289559,31,26.0,104,65,175,65,0,0,0,0,0,0,1,0,0,0,0,5.0,Green
+Glenda Daniel,Falkland Islands (Malvinas),M,5987932523171,35,41.6,124,94,179,56,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Jonathan Osborne,Montenegro,F,6044429041118,52,22.3,120,84,266,71,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Laura Mcintosh,Chad,M,7956741271229,53,30.1,142,84,178,59,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Julie Bradshaw,Spain,M,3689165562096,38,39.4,150,90,208,54,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Nicole Mendez,Vanuatu,M,7489359383003,55,30.5,158,88,234,51,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Michael Warren,Dominica,F,6135599666178,65,19.2,143,91,166,57,1,0,1,0,0,0,1,0,0,0,0,25.0,Red
+Kayla Russo,Barbados,F,1010254975886,58,25.2,154,82,191,50,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Michael Farmer,Belgium,M,8175711095156,33,19.6,128,80,130,65,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Sally Duran,South Georgia and the South Sandwich Islands,M,6671156556556,46,44.0,137,81,241,56,0,0,0,0,0,0,1,0,0,0,0,20.0,Orange
+Tammy Mann,Mongolia,F,8241801736114,41,18.7,126,77,199,53,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Michelle Davis,Jordan,F,0129104259111,51,22.8,157,80,169,72,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Jason West,Saint Vincent and the Grenadines,M,4587630214275,52,19.0,156,93,229,44,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Benjamin Garza,Uzbekistan,M,7603209314089,39,25.2,110,81,218,41,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Tiffany Jones,Saint Helena,F,7508091328407,67,26.0,145,91,188,75,2,0,1,1,0,0,0,0,0,0,1,15.0,Orange
+Christopher Hall,Tanzania,F,2032356552443,51,27.7,156,86,162,73,1,0,1,0,0,0,0,0,0,0,0,7.5,Orange
+Michael Phillips,Jordan,M,2956304337329,37,47.3,143,91,136,61,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Michael Nelson,Fiji,F,9320133327050,62,28.3,145,81,151,62,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+John Levine,British Indian Ocean Territory (Chagos Archipelago),M,6031016689563,25,15.7,120,70,203,53,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Phillip Sawyer,Ghana,M,0954132786083,50,20.8,120,82,160,40,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Linda Watkins,Italy,F,9576872234269,78,45.1,140,81,268,41,1,0,1,0,0,0,0,0,0,0,0,27.5,Red
+Jean Duran,Sudan,M,4292791743266,79,23.8,194,81,166,62,2,1,1,0,0,0,0,0,0,1,0,32.5,Red
+Melissa Jones,Brunei Darussalam,M,2031812678567,53,43.9,130,85,258,31,0,0,0,0,0,0,0,0,0,0,0,17.5,Orange
+Zachary Kane,Denmark,M,0445016423267,64,31.5,144,80,207,47,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Harry Rush,Sri Lanka,M,9326015690120,19,18.1,104,68,137,65,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Troy Cobb,Colombia,M,7212016539853,77,42.8,157,81,195,73,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Barbara Peterson,Trinidad and Tobago,F,6083631945388,31,28.3,111,66,136,68,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Richard Black,Costa Rica,F,2885477612943,41,28.4,114,70,257,56,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Ruth Morrison,Turkmenistan,F,0805629232722,52,51.1,142,83,200,50,1,0,1,0,0,0,0,0,0,0,0,10.0,Orange
+William Davis,Italy,M,9157300851847,92,34.0,125,81,272,57,0,0,0,0,0,0,0,0,0,0,0,32.5,Red
+Karen Baker,Mozambique,F,8914481656545,85,23.8,134,95,151,64,2,1,0,0,0,1,1,0,0,0,0,37.5,Red
+Ana Bell,Uruguay,M,4019307405100,19,19.5,124,75,168,74,1,0,1,0,0,0,0,0,0,1,0,1.0,Orange
+Rebecca Humphrey,Estonia,F,8098214177849,40,46.8,145,80,146,70,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Michael Jimenez,Belgium,M,8110787073943,42,29.6,106,82,241,55,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Matthew Green,Dominican Republic,M,0237099522261,19,21.5,103,65,144,44,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Evan Blackwell,Czech Republic,F,0149818267387,60,26.2,143,80,218,38,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Kimberly Merritt,Isle of Man,M,4594695272539,54,27.7,141,91,258,42,1,0,1,0,0,0,1,0,0,1,0,25.0,Orange
+Nicholas Hoover,Hong Kong,F,2607139677905,27,35.1,148,86,220,36,2,0,1,0,1,0,0,0,0,0,0,12.5,Orange
+Bonnie Long,Afghanistan,F,7820485546793,35,31.1,145,89,198,67,2,0,1,1,0,0,0,0,0,0,1,2.5,Orange
+Lisa Goodman,Vanuatu,F,4470102840679,43,34.8,151,86,249,35,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Jacob Snyder,Cameroon,F,2048070951936,61,22.2,139,89,247,45,1,1,0,0,0,0,1,0,0,0,0,35.0,Red
+Daniel Duke,Bahrain,F,8698714283349,58,25.9,147,92,166,73,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Patricia Mcconnell,Norway,M,3838341243599,75,17.2,146,94,213,51,1,0,1,0,0,0,0,0,0,1,0,25.0,Red
+Peter Thornton,Kuwait,F,8274536379134,70,30.5,148,91,244,50,2,1,1,0,0,0,0,0,0,1,0,35.0,Red
+Lisa Cooper,Jamaica,F,9412336446192,61,25.3,141,83,200,39,2,1,1,0,0,0,0,0,0,1,0,27.5,Red
+Jason Irwin,Saudi Arabia,M,4926279293126,77,29.8,142,87,192,42,2,1,1,0,0,0,0,0,0,1,0,30.0,Red
+Emily Hill,Saint Martin,F,9096593340150,43,33.3,143,83,202,62,2,0,1,1,0,0,0,0,0,0,1,5.0,Orange
+Jeffrey Smith,Central African Republic,F,1993440611495,42,22.7,104,76,275,56,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Kenneth Sellers,Malta,F,6372136657071,45,22.9,129,67,157,43,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Carol Floyd,United States Minor Outlying Islands,F,1966306340563,65,33.8,128,85,227,70,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Benjamin Henderson,Botswana,F,4517487594084,35,45.7,149,82,208,45,1,0,1,0,0,0,0,0,0,1,0,7.5,Orange
+Victor Harris,Mauritius,M,7300889522246,50,36.7,145,92,150,54,1,0,1,0,0,0,0,0,0,0,0,10.0,Green
+Christina Buck,Kyrgyz Republic,M,1016830839955,75,17.6,131,86,206,36,1,1,0,0,0,0,1,0,0,0,0,42.5,Red
+Kristy Moore,Botswana,M,3357562688175,57,33.7,133,84,182,48,0,0,0,0,0,0,0,0,0,0,0,10.0,Green
+Lisa Hamilton,Wallis and Futuna,F,0917411690099,82,29.6,195,91,269,71,1,0,1,0,0,0,1,0,0,0,0,42.5,Red
+Ronald Mills,India,F,1910251866333,42,34.9,131,91,150,54,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Joy Robinson,British Indian Ocean Territory (Chagos Archipelago),M,0342546952451,54,35.0,120,87,272,63,0,0,0,0,0,0,1,0,0,0,0,17.5,Orange
+Randall Kennedy,Liechtenstein,M,8552348940392,80,36.7,141,80,251,72,2,1,1,0,0,0,0,0,0,0,0,37.5,Red
+Charles Jackson DDS,Svalbard & Jan Mayen Islands,F,4024057953269,25,33.0,124,86,206,55,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Mrs. Elizabeth Price DDS,French Southern Territories,F,6989576169271,55,40.8,122,89,260,31,2,0,1,0,0,1,0,0,0,0,0,20.0,Orange
+Kathleen Cook,Argentina,F,7723515380193,45,17.0,124,65,200,53,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Wesley Anderson,Solomon Islands,F,0542546862693,75,30.5,155,85,152,65,3,1,1,1,0,0,0,0,0,0,0,27.5,Red
+Jeff Ochoa,Tuvalu,F,7122244595463,36,23.0,127,72,190,72,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Scott Moore,Gabon,M,2680129225935,41,23.7,101,81,184,30,1,0,0,0,0,1,0,0,0,0,0,5.0,Green
+Courtney Weaver,China,F,1965323817010,22,39.0,151,94,132,71,1,0,1,0,0,0,0,0,0,1,0,2.5,Orange
+Joshua Sanchez,Dominican Republic,F,7083285280148,51,26.6,158,92,279,55,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Adrian Lozano,Western Sahara,M,0888475032159,79,24.5,132,87,201,73,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Joseph Mitchell,Kiribati,F,2499982792276,80,26.5,157,84,233,54,1,0,1,0,0,0,1,0,0,0,0,35.0,Red
+James Perez,Bosnia and Herzegovina,M,0298763136238,58,44.4,147,95,182,72,1,0,1,0,0,0,1,0,0,1,0,17.5,Orange
+Jacob Dixon,Kiribati,M,5521413697564,56,35.0,160,83,184,68,1,0,1,0,0,0,0,0,0,1,0,10.0,Orange
+Danielle Brennan,British Virgin Islands,M,1778831038842,55,30.8,125,86,234,36,1,0,1,0,0,0,1,0,0,1,0,22.5,Orange
+Christopher Garcia,Angola,M,9294288922487,52,37.6,123,84,170,38,0,0,0,0,0,0,0,0,0,0,0,10.0,Orange
+Holly Rivera,Uganda,F,3060260725331,70,22.9,120,84,209,52,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Richard Mccall,Saint Barthelemy,M,6150586711860,59,23.5,125,94,247,56,0,0,0,0,0,0,0,0,0,0,0,15.0,Orange
+Luis Wilson,Moldova,M,0242757779628,77,46.7,150,87,255,40,1,0,1,0,0,0,0,0,0,0,0,30.0,Red
+Timothy Gill,Swaziland,M,0842321678922,44,23.0,128,72,173,30,0,0,0,0,0,0,1,0,0,0,0,12.5,Green
+Travis Green,San Marino,M,5887505415790,37,30.9,127,93,215,38,1,0,1,0,0,0,0,0,0,0,0,7.5,Green
+Mark King,Togo,M,9212777746161,49,47.4,131,87,271,55,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Stephanie Lewis,Saudi Arabia,F,5853389788787,38,22.7,116,71,165,57,0,0,0,0,0,0,1,0,0,0,0,7.5,Green
+Catherine Hicks,Aruba,M,1360719574858,53,34.9,151,87,213,51,1,0,1,0,0,0,0,0,0,0,0,12.5,Orange
+Peter Cole,South Georgia and the South Sandwich Islands,F,3606648134380,67,33.7,128,81,154,51,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Diana Perez,Congo,F,2289885788212,37,19.8,121,79,207,30,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Amanda Hale,Western Sahara,M,0698709836671,62,20.1,125,94,219,45,0,0,0,0,0,0,1,0,0,0,0,20.0,Orange
+Mark Irwin,Saint Pierre and Miquelon,M,1761906414719,80,45.2,154,95,216,48,2,0,1,1,0,0,0,0,0,0,0,27.5,Red
+Michelle Frazier,Comoros,F,8456112065048,59,36.8,133,83,233,69,0,0,0,0,0,0,0,0,0,0,0,10.0,Orange
+Mr. Michael Cooley MD,Greenland,F,2450232579337,46,27.5,112,75,272,43,1,0,1,0,0,0,1,0,0,0,0,17.5,Orange
+Katherine Pace,Zambia,M,5175248655253,52,29.8,123,90,238,33,0,0,0,0,0,0,0,0,0,0,0,12.5,Green
+Derrick Reid,Czech Republic,M,0251076935547,60,31.8,145,83,230,62,1,0,1,0,0,0,1,0,0,0,0,22.5,Red
+Eugene Alvarez,Bulgaria,M,7994083466972,48,21.9,103,75,189,43,0,0,0,0,0,0,1,0,0,0,0,10.0,Green
+Kenneth Lowery,Afghanistan,F,4846538621616,46,37.2,131,84,216,53,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Nicole Dorsey,Gibraltar,M,7370527210767,64,41.8,141,89,230,56,2,1,1,0,0,0,1,0,0,1,0,32.5,Red
+Timothy Johnson,Oman,F,5322954448789,34,18.6,125,77,214,48,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Mary Johnson,Zimbabwe,M,2851726352373,56,30.5,147,94,234,63,1,0,1,0,0,0,0,0,0,0,0,12.5,Green
+Kimberly Harvey,Isle of Man,M,6219784244096,59,26.1,143,87,180,45,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Travis Bennett,Ghana,M,5336571901183,27,35.8,128,92,182,55,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Casey Johnson,Western Sahara,M,3089079261007,71,32.0,155,82,160,74,1,0,1,0,0,0,0,0,0,0,0,17.5,Orange
+Jonathan Eaton,Suriname,F,7296864346597,52,25.5,126,81,207,52,0,0,0,0,0,0,0,0,0,0,0,7.5,Green
+Tyrone Coleman,Tanzania,M,7461751891300,54,28.4,151,92,263,72,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Vincent Robertson,Slovenia,F,3042854859714,57,31.9,153,87,230,42,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Timothy Chavez,Portugal,M,2475223187001,60,44.9,149,95,173,62,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Dakota Warner,Cook Islands,M,6719343267752,44,18.0,106,66,187,34,2,0,1,0,0,1,1,0,0,0,0,12.5,Orange
+Kenneth Chapman,Kazakhstan,M,6958512717104,59,45.0,157,87,179,45,1,0,1,0,0,0,0,0,0,1,0,12.5,Orange
+Gregory Henson,Jersey,M,3580908416938,65,33.7,158,90,167,33,1,0,1,0,0,0,0,0,0,1,0,22.5,Red
+Cassidy Thompson,Martinique,M,5097837072398,91,34.6,159,95,252,54,1,0,1,0,0,0,0,0,0,0,0,37.5,Red
+Nicholas Esparza,Niger,M,4021947060380,67,27.0,142,84,247,50,1,0,1,0,0,0,0,0,0,1,0,25.0,Red
+Jessica Rogers,Burkina Faso,F,6233163474348,88,30.1,140,84,239,72,1,0,1,0,0,0,0,0,0,0,0,25.0,Red
+Catherine Mcdonald MD,Maldives,M,0929892757901,64,28.4,143,80,229,75,1,0,1,0,0,0,0,0,0,0,0,15.0,Orange
+Benjamin Young,Albania,M,2344786400066,90,30.4,130,81,188,60,1,1,0,0,0,0,0,0,0,0,0,32.5,Red
+Keith Wilkins,Sudan,F,5197805271713,57,31.6,144,87,253,37,2,0,1,0,0,1,1,0,0,0,0,32.5,Orange
+Andrew Garcia,Saint Vincent and the Grenadines,F,1997445883833,60,29.4,150,85,216,75,1,0,1,0,0,0,1,0,0,0,0,22.5,Red
+Sean Peterson,Croatia,F,4088051455716,52,32.7,160,94,202,37,1,0,1,0,0,0,0,0,0,1,0,17.5,Orange
+Steven Henderson,Australia,M,7169731462723,20,27.8,121,65,173,31,0,0,0,0,0,0,0,0,0,0,0,5.0,Green
+Brent Anderson,Thailand,F,6645968546050,75,30.7,137,94,236,64,0,0,0,0,0,0,0,0,0,0,0,20.0,Orange
+Jennifer Mckinney,United States of America,M,9196558466625,89,34.9,121,87,232,53,2,1,1,0,0,0,1,0,0,0,0,40.0,Red
+Mrs. Ashley Gutierrez,Ghana,M,4547556807685,41,35.1,128,90,187,61,1,0,0,0,0,1,1,0,0,0,0,5.0,Green
+Edward Kirby,Brazil,F,0749402530639,56,23.5,145,83,200,61,2,1,1,0,0,0,0,0,0,0,0,17.5,Orange
+Alyssa Rodriguez,Cook Islands,M,6736795772610,26,43.1,138,82,203,59,0,0,0,0,0,0,1,0,0,0,0,12.5,Green
+Colin Watson,Jersey,M,2095072533011,43,23.5,123,80,185,66,0,0,0,0,0,0,0,0,0,0,0,1.0,Green
+Alison Reynolds,Libyan Arab Jamahiriya,M,4386945358175,58,34.0,146,82,191,53,1,0,1,0,0,0,1,0,0,1,0,20.0,Orange
+Tracey Conley,Papua New Guinea,F,4523095229867,45,31.6,136,80,180,69,0,0,0,0,0,0,0,0,0,0,0,2.5,Green
+Beverly Alvarez,New Zealand,F,7328099202765,61,34.1,155,80,181,40,1,0,1,0,0,0,1,0,0,0,0,22.5,Red
+Leah Patton,Solomon Islands,F,9123043614322,53,49.3,121,84,166,48,1,0,1,0,0,0,0,0,0,1,0,5.0,Orange
+Laura Joyce,Central African Republic,M,0566592665268,73,31.2,152,94,182,62,1,0,1,0,0,0,0,1,0,1,0,17.5,Orange
+Matthew Shea,United States Minor Outlying Islands,F,3245604938329,80,31.6,146,94,171,50,2,0,1,0,1,0,0,0,0,1,0,25.0,Red
+Caleb Carter,Falkland Islands (Malvinas),F,2247274603225,45,39.7,148,83,220,38,1,0,1,0,0,0,0,0,0,1,0,15.0,Orange
+Alexander Allen,Montserrat,F,7972640341566,58,22.0,154,91,243,51,2,1,1,0,0,0,0,0,0,0,0,27.5,Orange
+Kimberly Bell,Cape Verde,F,9981739514116,36,18.5,115,67,155,60,1,0,1,0,0,0,1,0,0,1,0,7.5,Orange
+Brian Buckley PhD,Brunei Darussalam,F,7123885458971,65,29.7,158,84,259,49,1,0,1,0,0,0,1,0,0,1,0,32.5,Red
+Juan Singleton,Martinique,M,2494888936526,74,28.4,131,91,192,35,0,0,0,0,0,0,0,0,0,0,0,22.5,Red
+Chelsea Osborne,Kuwait,F,3407612962875,61,33.1,143,95,279,37,1,0,1,0,0,0,0,0,0,1,0,27.5,Red
+Larry Brennan,Iraq,F,0990003105775,35,46.1,149,81,179,75,1,0,1,0,0,0,0,0,0,0,0,2.5,Green
+David Wilson,France,M,0776179006630,60,34.6,131,81,275,44,1,0,1,0,0,0,0,0,0,0,0,20.0,Orange
+Arthur Juarez,Venezuela,F,7473368451785,62,30.0,157,95,208,40,2,1,1,0,0,0,0,0,0,1,0,25.0,Red
+Alexis Davis,South Georgia and the South Sandwich Islands,M,9921319137632,59,24.7,139,85,259,30,0,0,0,0,0,0,1,0,0,0,0,30.0,Orange
