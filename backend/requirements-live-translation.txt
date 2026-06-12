@@ -1,0 +1,4 @@
+# Optional local live translation dependencies.
+# Install only when LOCAL_LIVE_TRANSLATION_ENABLED=1 is required.
+faster-whisper==1.2.1
+requests==2.32.5

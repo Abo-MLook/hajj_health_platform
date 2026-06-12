@@ -68,6 +68,10 @@ class HealthProfile(models.Model):
     vaccinations_text = models.TextField(blank=True)
     status = models.CharField(max_length=30, default="pending")
     confidence_score = models.PositiveSmallIntegerField(default=0)
+    # Structured feature vector (BMI, BP, cholesterol, ICD flags, CVD risk, …)
+    # used by the hajj_triage_ai XGBoost model. Null when we only have the
+    # free-text profile (e.g. from a document upload) and can't run triage.
+    triage_features = models.JSONField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
