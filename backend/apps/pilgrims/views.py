@@ -62,10 +62,12 @@ def _handle_upload(request):
         logger.exception("Failed to create MedicalDocument for pilgrim %s", pilgrim.pk)
         return JsonResponse({"error": "Upload failed. Please try again."}, status=500)
 
-    # Signal ran synchronously — document already has pipeline results
+    # Signal ran synchronously — document already has pipeline results,
+    # and the pipeline may have filled the pilgrim's demographic fields
     document.refresh_from_db()
+    pilgrim.refresh_from_db()
 
-    # If the user didn't type a name, use the one Gemini extracted from the document
+    # If the user didn't type a name, use the one the AI extracted from the document
     if not patient_name and document.extracted_json:
         extracted_name = (document.extracted_json.get("patient_name") or "").strip()
         if extracted_name:
@@ -90,6 +92,13 @@ def _handle_upload(request):
         "success": True,
         "document_id": document.pk,
         "pilgrim_name": pilgrim.full_name,
+        "pilgrim": {
+            "full_name": pilgrim.full_name,
+            "date_of_birth": pilgrim.date_of_birth.isoformat() if pilgrim.date_of_birth else None,
+            "age": pilgrim.age,
+            "gender": pilgrim.gender or None,
+            "nationality": pilgrim.nationality or None,
+        },
         "filename": document.original_filename,
         "file_url": document.file.url,
         "extracted_text_preview": (document.extracted_text or "")[:600] or None,

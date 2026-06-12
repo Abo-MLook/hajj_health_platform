@@ -109,6 +109,49 @@ class ReviewAgentSuccessTest(TestCase):
         self.assertEqual(result["final_status"], "approved")
 
     @patch("apps.pilgrims.agent._get_client")
+    def test_preserves_identity_fields_from_original_extraction(self, mock_get_client):
+        """The review response has no patient_name/demographics — they must
+        survive from the original extraction instead of being erased."""
+        mock_choice = MagicMock()
+        mock_choice.message.content = CORRECTED_RESPONSE
+        mock_get_client.return_value.chat.completions.create.return_value.choices = [mock_choice]
+
+        original = dict(
+            _DIRTY_JSON,
+            patient_name="Fatima Al-Zahrani",
+            date_of_birth="1980-05-20",
+            gender="female",
+            nationality="Saudi",
+        )
+        doc = _make_document(confidence=50, extracted_json=original)
+        review_agent(doc)
+
+        doc.refresh_from_db()
+        self.assertEqual(doc.extracted_json["patient_name"], "Fatima Al-Zahrani")
+        self.assertEqual(doc.extracted_json["date_of_birth"], "1980-05-20")
+        self.assertEqual(doc.extracted_json["gender"], "female")
+        self.assertEqual(doc.extracted_json["nationality"], "Saudi")
+        # corrections still applied
+        self.assertEqual(doc.extracted_json["diseases"], ["Diabetes"])
+
+    @patch("apps.pilgrims.agent._get_client")
+    def test_review_response_identity_fields_win_when_present(self, mock_get_client):
+        """If the review response itself contains identity fields, use them."""
+        response = CORRECTED_RESPONSE.replace(
+            '"diseases"',
+            '"patient_name": "Corrected Name", "diseases"',
+        )
+        mock_choice = MagicMock()
+        mock_choice.message.content = response
+        mock_get_client.return_value.chat.completions.create.return_value.choices = [mock_choice]
+
+        doc = _make_document(confidence=50, extracted_json=dict(_DIRTY_JSON, patient_name="Old Name"))
+        review_agent(doc)
+
+        doc.refresh_from_db()
+        self.assertEqual(doc.extracted_json["patient_name"], "Corrected Name")
+
+    @patch("apps.pilgrims.agent._get_client")
     def test_succeeds_on_second_attempt(self, mock_get_client):
         mock_choice = MagicMock()
         mock_choice.message.content = CORRECTED_RESPONSE

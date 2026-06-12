@@ -1,4 +1,5 @@
 import uuid
+from datetime import date
 
 from django.core.exceptions import ValidationError
 from django.core.validators import FileExtensionValidator
@@ -21,6 +22,11 @@ def generate_patient_id():
 
 
 class Pilgrim(models.Model):
+    GENDER_CHOICES = [
+        ("male", "Male"),
+        ("female", "Female"),
+    ]
+
     full_name = models.CharField(max_length=255)
     patient_id = models.CharField(
         max_length=20,
@@ -32,9 +38,19 @@ class Pilgrim(models.Model):
     passport_number = models.CharField(max_length=100, unique=True, db_index=True)
     nationality = models.CharField(max_length=100, blank=True)
     date_of_birth = models.DateField(null=True, blank=True)
+    gender = models.CharField(max_length=10, choices=GENDER_CHOICES, blank=True)
     phone = models.CharField(max_length=50, blank=True)
     hajj_permit_number = models.CharField(max_length=100, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    @property
+    def age(self):
+        """Current age in years derived from date_of_birth, or None if unknown."""
+        if not self.date_of_birth:
+            return None
+        today = date.today()
+        born = self.date_of_birth
+        return today.year - born.year - ((today.month, today.day) < (born.month, born.day))
 
     def __str__(self):
         return f"{self.full_name} - {self.passport_number}"

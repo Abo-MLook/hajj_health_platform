@@ -10,6 +10,8 @@ class PilgrimAdmin(admin.ModelAdmin):
         "patient_id",
         "passport_number",
         "nationality",
+        "gender",
+        "date_of_birth",
         "phone",
         "hajj_permit_number",
         "created_at",
@@ -22,7 +24,7 @@ class PilgrimAdmin(admin.ModelAdmin):
         "phone",
         "hajj_permit_number",
     )
-    list_filter = ("nationality", "created_at")
+    list_filter = ("nationality", "gender", "created_at")
 
 
 @admin.register(HealthProfile)

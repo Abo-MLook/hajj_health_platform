@@ -323,6 +323,9 @@
       </div>
     </div>
 
+    <p class="section-title" style="margin-bottom:10px">Pilgrim Details</p>
+    <div class="profile-grid" id="pilgrimGrid" style="margin-bottom:22px"></div>
+
     <div class="result-block">
       <div class="stat-box" style="margin-bottom:10px">
         <div class="stat-label">File uploaded to</div>
@@ -446,6 +449,13 @@
 
       // Populate results
       document.getElementById('resPilgrim').textContent = json.pilgrim_name || '—';
+
+      const p = json.pilgrim || {};
+      document.getElementById('pilgrimGrid').innerHTML =
+        profileItem('Age', p.age !== null && p.age !== undefined ? p.age + ' years' : null) +
+        profileItem('Gender', p.gender) +
+        profileItem('Date of Birth', p.date_of_birth) +
+        profileItem('Nationality', p.nationality);
 
       const score = json.confidence_score;
       document.getElementById('resScore').textContent =

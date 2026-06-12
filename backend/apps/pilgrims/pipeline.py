@@ -1,6 +1,7 @@
 import logging
 
 from .agent import review_agent
+from .demographics import apply_demographics
 from .extraction.confidence import score_document
 from .extraction.extractor import extract_text_from_document
 from .extraction.json_extractor import extract_json_from_document
@@ -14,9 +15,11 @@ def run_pipeline(document):
 
     Steps (each saves its results to the document/profile immediately):
       1. Extract raw text from the file (PDF or image OCR)
-      2. Send the text to Gemini and save structured medical JSON
+      2. Send the text to Groq and save structured medical JSON
       3. Calculate a confidence score and review status
-      4. Merge all documents into the pilgrim's unified HealthProfile
+      4. Review agent auto-corrects OCR errors on low-confidence documents
+      5. Fill the pilgrim's demographic fields (DOB, gender, nationality)
+      6. Merge all documents into the pilgrim's unified HealthProfile
 
     Returns a summary dict — useful for logging, tests, and future task queues.
     """
@@ -28,6 +31,8 @@ def run_pipeline(document):
 
     if document.confidence_score < 75:
         review_agent(document)
+
+    apply_demographics(document)
 
     health_profile = merge_health_profile(document.pilgrim)
 

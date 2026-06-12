@@ -5,6 +5,9 @@ from apps.pilgrims.extraction.ai_extractor import extract_structured_data
 
 CLEAN_JSON = (
     '{"patient_name": "Fatima Al-Zahrani", '
+    '"date_of_birth": "1980-05-20", '
+    '"gender": "female", '
+    '"nationality": "Saudi", '
     '"diseases": ["Type 2 Diabetes"], '
     '"medications": [{"name": "Metformin", "dose": "500mg", "frequency": "twice daily"}], '
     '"allergies": ["Penicillin"], '
@@ -41,6 +44,9 @@ class ExtractStructuredDataTests(TestCase):
         self.assertEqual(result["allergies"], ["Penicillin"])
         self.assertEqual(result["vaccinations"], ["COVID-19"])
         self.assertEqual(result["patient_name"], "Fatima Al-Zahrani")
+        self.assertEqual(result["date_of_birth"], "1980-05-20")
+        self.assertEqual(result["gender"], "female")
+        self.assertEqual(result["nationality"], "Saudi")
 
     @patch("apps.pilgrims.extraction.ai_extractor._get_client")
     def test_unwraps_markdown_fenced_json(self, mock_get_client):

@@ -21,6 +21,10 @@ OCR engines make common mistakes on medical documents:
 Below is the raw OCR text. Read it carefully, correct all OCR errors you find, then extract the medical data.
 
 Return ONLY a JSON object with exactly these keys:
+- "patient_name": the patient's full name, spelling corrected (string, or null if not found)
+- "date_of_birth": the patient's date of birth in YYYY-MM-DD format (string, or null if not found)
+- "gender": "male" or "female" (string, or null if not stated)
+- "nationality": the patient's nationality or country (string, or null if not found)
 - "diseases": list of corrected chronic disease names (strings)
 - "medications": list of objects, each with "name", "dose", "frequency" (all corrected)
 - "allergies": list of corrected allergy names (strings)
@@ -61,6 +65,17 @@ def _has_meaningful_data(data):
         data.get("allergies") or
         data.get("vaccinations")
     )
+
+
+def _preserve_identity_fields(old_json, new_data):
+    """Keep identity fields from the original extraction when the review
+    response omits them, so corrections never erase the patient's identity.
+    """
+    if not old_json:
+        return
+    for key in ("patient_name", "date_of_birth", "gender", "nationality"):
+        if not new_data.get(key) and old_json.get(key):
+            new_data[key] = old_json[key]
 
 
 def _corrections_differ(old_json, new_data):
@@ -117,6 +132,7 @@ def review_agent(document):
 
             if _has_meaningful_data(data):
                 corrections = data.pop("corrections_made", [])
+                _preserve_identity_fields(old_json, data)
                 improved = _corrections_differ(old_json, data)
 
                 document.extracted_json = data

@@ -13,12 +13,17 @@ EXTRACTION_PROMPT = """You are a medical data extraction assistant for a Hajj he
 Read the medical document text below and extract structured data as JSON
 with exactly these keys:
 - "patient_name": the full name of the patient as written in the document (string, or null if not found)
+- "date_of_birth": the patient's date of birth in YYYY-MM-DD format (string, or null if not found).
+  If only an age is stated (e.g. "Age: 58"), estimate the birth year and use January 1st (e.g. "1968-01-01").
+- "gender": "male" or "female" (string, or null if not stated)
+- "nationality": the patient's nationality or country (string, or null if not found)
 - "diseases": a list of chronic disease names (strings)
 - "medications": a list of objects, each with "name", "dose", and "frequency"
 - "allergies": a list of allergy names (strings)
 - "vaccinations": a list of vaccination names (strings)
 
-If a field is not mentioned in the text, return null for patient_name or an empty list for the others.
+If a field is not mentioned in the text, return null for the single-value fields
+(patient_name, date_of_birth, gender, nationality) or an empty list for the others.
 Respond with ONLY the JSON object — no explanation, no markdown formatting.
 
 Document text:
@@ -46,9 +51,10 @@ def _parse_json_response(raw_response):
 
 
 def extract_structured_data(raw_text):
-    """Send raw medical document text to Grok (xAI) and return structured medical data.
+    """Send raw medical document text to Groq and return structured medical data.
 
-    Returns a dict with keys: patient_name, diseases, medications, allergies, vaccinations.
+    Returns a dict with keys: patient_name, date_of_birth, gender, nationality,
+    diseases, medications, allergies, vaccinations.
     Returns None if the API call fails or the response isn't valid JSON.
     """
     if not raw_text or not raw_text.strip():

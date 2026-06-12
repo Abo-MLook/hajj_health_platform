@@ -179,3 +179,24 @@ class RunPipelineTests(TestCase):
 
         mock_agent.assert_called_once()
         mock_merge.assert_called_once_with(self.document.pilgrim)
+
+    @patch("apps.pilgrims.pipeline.apply_demographics")
+    @patch("apps.pilgrims.pipeline.merge_health_profile")
+    @patch("apps.pilgrims.pipeline.score_document")
+    @patch("apps.pilgrims.pipeline.extract_json_from_document")
+    @patch("apps.pilgrims.pipeline.extract_text_from_document")
+    def test_demographics_applied_for_every_document(
+        self, mock_extract_text, mock_extract_json, mock_score, mock_merge, mock_demographics
+    ):
+        """apply_demographics runs in the pipeline regardless of confidence."""
+        mock_merge.return_value.status = "pending"
+
+        def fake_score(doc):
+            doc.confidence_score = 75
+            doc.save(update_fields=["confidence_score", "updated_at"])
+
+        mock_score.side_effect = fake_score
+
+        run_pipeline(self.document)
+
+        mock_demographics.assert_called_once_with(self.document)
