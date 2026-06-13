@@ -6,6 +6,7 @@ from .extraction.confidence import score_document
 from .extraction.extractor import extract_text_from_document
 from .extraction.json_extractor import extract_json_from_document
 from .merging import merge_health_profile
+from .triage import run_triage_inference
 
 logger = logging.getLogger(__name__)
 
@@ -35,6 +36,7 @@ def run_pipeline(document):
     apply_demographics(document)
 
     health_profile = merge_health_profile(document.pilgrim)
+    run_triage_inference(health_profile)
 
     document.refresh_from_db()
 

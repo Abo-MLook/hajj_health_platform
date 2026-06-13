@@ -68,6 +68,24 @@ class HealthProfile(models.Model):
     vaccinations_text = models.TextField(blank=True)
     status = models.CharField(max_length=30, default="pending")
     confidence_score = models.PositiveSmallIntegerField(default=0)
+    
+    # New Vitals and Lifestyle Fields
+    height = models.FloatField(null=True, blank=True)
+    weight = models.FloatField(null=True, blank=True)
+    bmi = models.FloatField(null=True, blank=True)
+    systolic_bp = models.PositiveIntegerField(null=True, blank=True)
+    diastolic_bp = models.PositiveIntegerField(null=True, blank=True)
+    total_cholesterol = models.PositiveIntegerField(null=True, blank=True)
+    hdl_cholesterol = models.PositiveIntegerField(null=True, blank=True)
+    cvd_risk_score = models.FloatField(null=True, blank=True)
+    smoker = models.BooleanField(null=True, blank=True)
+    needs_walking_assist = models.BooleanField(null=True, blank=True)
+    uses_oxygen = models.BooleanField(null=True, blank=True)
+    
+    # Triage Output Fields
+    triage_category = models.CharField(max_length=20, null=True, blank=True)
+    triage_reasoning = models.JSONField(null=True, blank=True)
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
