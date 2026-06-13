@@ -128,3 +128,71 @@ def pilgrim_detail(request, patient_id):
         return _cors(JsonResponse({"error": "Pilgrim not found"}, status=404))
 
     return _cors(JsonResponse(_serialize_pilgrim(pilgrim)))
+
+
+# Triage_Category (from the dataset, stored in triage_features) → client RiskLevel.
+_CATEGORY_RISK = {"Red": "red", "Orange": "yellow", "Green": "green"}
+
+# ICD feature flag → condition key the dashboard groups by.
+_CONDITION_FLAGS = {
+    "ICD_E08_E13_Diabetes": "diabetes",
+    "ICD_I10_I15_Hypertension": "hypertension",
+    "ICD_I20_I50_HeartDisease": "heart",
+    "ICD_J40_J47_Respiratory": "respiratory",
+    "ICD_N18_KidneyDisease": "kidney",
+}
+
+
+def _flag_set(value):
+    """The ICD flags are stored as floats (1.0/0.0) in the feature vector."""
+    try:
+        return float(value) >= 1
+    except (TypeError, ValueError):
+        return False
+
+
+@require_http_methods(["GET", "OPTIONS"])
+def pilgrim_stats(request):
+    """Aggregate roster analytics for the dashboard/app Data screen — risk
+    distribution, chronic-condition counts, and totals — computed from the
+    stored triage feature vectors (the imported dataset). One pass over the DB,
+    no model runs."""
+    if request.method == "OPTIONS":
+        return _cors(JsonResponse({}))
+
+    total = Pilgrim.objects.count()
+    risk = {"green": 0, "yellow": 0, "red": 0}
+    conditions = {key: 0 for key in _CONDITION_FLAGS.values()}
+    none_count = 0
+
+    features = (
+        Pilgrim.objects.select_related("health_profile")
+        .exclude(health_profile__triage_features__isnull=True)
+        .values_list("health_profile__triage_features", flat=True)
+    )
+
+    for feat in features:
+        if not isinstance(feat, dict):
+            continue
+        level = _CATEGORY_RISK.get(feat.get("Triage_Category"))
+        if level:
+            risk[level] += 1
+        has_any = False
+        for flag, key in _CONDITION_FLAGS.items():
+            if _flag_set(feat.get(flag)):
+                conditions[key] += 1
+                has_any = True
+        if not has_any:
+            none_count += 1
+
+    conditions["none"] = none_count
+
+    return _cors(
+        JsonResponse(
+            {
+                "total_pilgrims": total,
+                "risk_distribution": risk,
+                "chronic_conditions": conditions,
+            }
+        )
+    )

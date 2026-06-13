@@ -17,13 +17,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-from apps.pilgrims.api import pilgrim_detail, pilgrim_list, pilgrim_triage
+from apps.pilgrims.api import (
+    pilgrim_detail,
+    pilgrim_list,
+    pilgrim_stats,
+    pilgrim_triage,
+)
 from apps.pilgrims.views import upload_test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/live-translation/', include('apps.pilgrims.live_translation.urls')),
     path('api/pilgrims/', pilgrim_list, name='pilgrim_list'),
+    # Must precede '<str:patient_id>/' so "stats" isn't captured as an id.
+    path('api/pilgrims/stats/', pilgrim_stats, name='pilgrim_stats'),
     path('api/pilgrims/<str:patient_id>/triage/', pilgrim_triage, name='pilgrim_triage'),
     path('api/pilgrims/<str:patient_id>/', pilgrim_detail, name='pilgrim_detail'),
     path('', upload_test, name='upload_test'),
