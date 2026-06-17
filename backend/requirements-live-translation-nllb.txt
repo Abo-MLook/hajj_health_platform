@@ -1,0 +1,5 @@
+# Optional local NLLB benchmark dependencies. Review licensing and production
+# suitability before use in medical or safety-sensitive workflows.
+transformers==4.57.6
+sentencepiece==0.2.1
+torch==2.10.0

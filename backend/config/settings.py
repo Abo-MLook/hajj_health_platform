@@ -21,6 +21,20 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+def _env_bool(name, default=False):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _env_int(name, default):
+    try:
+        return int(os.environ.get(name, default))
+    except (TypeError, ValueError):
+        return default
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
@@ -45,6 +59,7 @@ INSTALLED_APPS = [
     'cloudinary',
     'cloudinary_storage',
     'apps.pilgrims',
+    'apps.pilgrims.live_translation.apps.LiveTranslationConfig',
 ]
 
 MIDDLEWARE = [
@@ -146,3 +161,47 @@ STORAGES = {
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Optional local-only speech translation. Heavy dependencies are deliberately
+# excluded from normal startup and loaded only after this flag is enabled.
+LOCAL_LIVE_TRANSLATION_ENABLED = _env_bool("LOCAL_LIVE_TRANSLATION_ENABLED", False)
+
+LOCAL_LIVE_TRANSLATION = {
+    "TRANSLATOR_BACKEND": os.environ.get("LOCAL_TRANSLATOR_BACKEND", "ollama"),
+    "OLLAMA_URL": os.environ.get("LOCAL_OLLAMA_URL", "http://127.0.0.1:11434"),
+    "OLLAMA_MODEL": os.environ.get("LOCAL_OLLAMA_MODEL", "qwen3.5:9b"),
+    "OLLAMA_TIMEOUT_SECONDS": _env_int("LOCAL_OLLAMA_TIMEOUT_SECONDS", 60),
+    "OLLAMA_KEEP_ALIVE": _env_int("LOCAL_OLLAMA_KEEP_ALIVE", -1),
+    "OLLAMA_NUM_CTX": _env_int("LOCAL_OLLAMA_NUM_CTX", 512),
+    "OLLAMA_NUM_PREDICT": _env_int("LOCAL_OLLAMA_NUM_PREDICT", 96),
+    "ALLOW_NON_LOOPBACK_OLLAMA": _env_bool("ALLOW_NON_LOOPBACK_OLLAMA", False),
+    "WHISPER_MODEL": os.environ.get("LOCAL_WHISPER_MODEL", "small"),
+    "WHISPER_DEVICE": os.environ.get("LOCAL_WHISPER_DEVICE", "cpu"),
+    "WHISPER_COMPUTE_TYPE": os.environ.get("LOCAL_WHISPER_COMPUTE_TYPE", "int8"),
+    "WHISPER_CPU_THREADS": _env_int("LOCAL_WHISPER_CPU_THREADS", 8),
+    "WHISPER_BEAM_SIZE": _env_int("LOCAL_WHISPER_BEAM_SIZE", 1),
+    "WHISPER_MIN_SILENCE_DURATION_MS": _env_int(
+        "LOCAL_WHISPER_MIN_SILENCE_DURATION_MS", 500
+    ),
+    "REALTIME_SAMPLE_RATE": _env_int("LOCAL_REALTIME_SAMPLE_RATE", 16000),
+    "REALTIME_CHANNELS": _env_int("LOCAL_REALTIME_CHANNELS", 1),
+    "REALTIME_SAMPLE_WIDTH_BYTES": _env_int("LOCAL_REALTIME_SAMPLE_WIDTH_BYTES", 2),
+    "REALTIME_EXPECTED_CHUNK_MS": _env_int("LOCAL_REALTIME_EXPECTED_CHUNK_MS", 20),
+    "REALTIME_MIN_SPEECH_MS": _env_int("LOCAL_REALTIME_MIN_SPEECH_MS", 200),
+    "REALTIME_END_SILENCE_MS": _env_int("LOCAL_REALTIME_END_SILENCE_MS", 500),
+    "REALTIME_MAX_UTTERANCE_SECONDS": _env_int(
+        "LOCAL_REALTIME_MAX_UTTERANCE_SECONDS", 20
+    ),
+    "REALTIME_MAX_BUFFER_BYTES": _env_int("LOCAL_REALTIME_MAX_BUFFER_BYTES", 1000000),
+    "REALTIME_TRANSLATION_PHRASE_WORDS": _env_int(
+        "LOCAL_REALTIME_TRANSLATION_PHRASE_WORDS", 6
+    ),
+    "TTS_BACKEND": os.environ.get("LOCAL_TTS_BACKEND", "espeak-ng"),
+    "TTS_ENABLED": _env_bool("LOCAL_TTS_ENABLED", True),
+    "ESPEAK_NG_EXECUTABLE": os.environ.get("ESPEAK_NG_EXECUTABLE", "espeak-ng"),
+    "ESPEAK_NG_SPEED_WPM": _env_int("ESPEAK_NG_SPEED_WPM", 165),
+    "NLLB_MODEL": os.environ.get(
+        "LOCAL_NLLB_MODEL", "facebook/nllb-200-distilled-600M"
+    ),
+    "NLLB_DEVICE": os.environ.get("LOCAL_NLLB_DEVICE", "cpu"),
+}

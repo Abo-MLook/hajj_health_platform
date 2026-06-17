@@ -1,5 +1,11 @@
 # Virtual environment
 venv/
+.venv/
+backend/.venv/
+
+# Generated QR artifacts
+qr_*.png
+backend/qr_*.png
 
 # Environment secrets
 .env

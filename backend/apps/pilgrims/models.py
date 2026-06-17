@@ -68,8 +68,13 @@ class HealthProfile(models.Model):
     vaccinations_text = models.TextField(blank=True)
     status = models.CharField(max_length=30, default="pending")
     confidence_score = models.PositiveSmallIntegerField(default=0)
-    
-    # New Vitals and Lifestyle Fields
+
+    # Structured feature vector (BMI, BP, cholesterol, ICD flags, CVD risk, …)
+    # used by the hajj_triage_ai XGBoost model. Null when we only have the
+    # free-text profile (e.g. from a document upload) and can't run triage.
+    triage_features = models.JSONField(null=True, blank=True)
+
+    # Vitals and lifestyle inputs used to build the triage feature vector.
     height = models.FloatField(null=True, blank=True)
     weight = models.FloatField(null=True, blank=True)
     bmi = models.FloatField(null=True, blank=True)
@@ -81,8 +86,8 @@ class HealthProfile(models.Model):
     smoker = models.BooleanField(null=True, blank=True)
     needs_walking_assist = models.BooleanField(null=True, blank=True)
     uses_oxygen = models.BooleanField(null=True, blank=True)
-    
-    # Triage Output Fields
+
+    # Triage output fields (human-readable result of the model run).
     triage_category = models.CharField(max_length=20, null=True, blank=True)
     triage_reasoning = models.JSONField(null=True, blank=True)
 
