@@ -21,9 +21,17 @@ with exactly these keys:
 - "medications": a list of objects, each with "name", "dose", and "frequency"
 - "allergies": a list of allergy names (strings)
 - "vaccinations": a list of vaccination names (strings)
+- "height": patient's height in cm (float, or null if not found)
+- "weight": patient's weight in kg (float, or null if not found)
+- "systolic_bp": patient's systolic blood pressure (integer, or null if not found)
+- "diastolic_bp": patient's diastolic blood pressure (integer, or null if not found)
+- "total_cholesterol": patient's total cholesterol (integer, or null if not found)
+- "hdl_cholesterol": patient's HDL cholesterol (integer, or null if not found)
+- "smoker": boolean true if patient smokes, false if non-smoker, null if not found
+- "oxygen_usage": boolean true if patient uses oxygen, false if not, null if not found
 
 If a field is not mentioned in the text, return null for the single-value fields
-(patient_name, date_of_birth, gender, nationality) or an empty list for the others.
+(patient_name, date_of_birth, gender, nationality, height, weight, systolic_bp, diastolic_bp, total_cholesterol, hdl_cholesterol, smoker, oxygen_usage) or an empty list for the others.
 Respond with ONLY the JSON object — no explanation, no markdown formatting.
 
 Document text:

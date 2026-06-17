@@ -7,8 +7,20 @@ def _collect_structured_data(documents):
     vaccinations = set()
     medications = {}
     conflicting_medications = set()
+    
+    vitals = {
+        "height": None,
+        "weight": None,
+        "systolic_bp": None,
+        "diastolic_bp": None,
+        "total_cholesterol": None,
+        "hdl_cholesterol": None,
+        "smoker": None,
+        "oxygen_usage": None,
+    }
 
-    for document in documents:
+    # Iterate in reverse to prioritize more recent documents if sorted by ID
+    for document in reversed(documents):
         data = document.extracted_json or {}
 
         diseases.update(name.strip() for name in data.get("diseases", []) if name and name.strip())
@@ -23,8 +35,12 @@ def _collect_structured_data(documents):
             if name in medications and medications[name] != details:
                 conflicting_medications.add(name)
             medications[name] = details
+            
+        for key in vitals.keys():
+            if vitals[key] is None and data.get(key) is not None:
+                vitals[key] = data.get(key)
 
-    return diseases, allergies, vaccinations, medications, conflicting_medications
+    return diseases, allergies, vaccinations, medications, conflicting_medications, vitals
 
 
 def _format_medications_text(medications):
@@ -44,15 +60,25 @@ def merge_health_profile(pilgrim):
     Medications with the same name but conflicting dose/frequency across
     documents mark the profile as needs_review.
     """
-    documents = list(pilgrim.documents.exclude(extracted_json__isnull=True).exclude(status="rejected"))
+    documents = list(pilgrim.documents.exclude(extracted_json__isnull=True).exclude(status="rejected").order_by('id'))
 
-    diseases, allergies, vaccinations, medications, conflicts = _collect_structured_data(documents)
+    diseases, allergies, vaccinations, medications, conflicts, vitals = _collect_structured_data(documents)
 
     profile, _ = HealthProfile.objects.get_or_create(pilgrim=pilgrim)
     profile.diseases_text = ", ".join(sorted(diseases))
     profile.allergies_text = ", ".join(sorted(allergies))
     profile.vaccinations_text = ", ".join(sorted(vaccinations))
     profile.medications_text = _format_medications_text(medications)
+    
+    profile.height = vitals["height"]
+    profile.weight = vitals["weight"]
+    profile.systolic_bp = vitals["systolic_bp"]
+    profile.diastolic_bp = vitals["diastolic_bp"]
+    profile.total_cholesterol = vitals["total_cholesterol"]
+    profile.hdl_cholesterol = vitals["hdl_cholesterol"]
+    profile.smoker = vitals["smoker"]
+    profile.uses_oxygen = vitals["oxygen_usage"]
+    # Needs walking assist might need to come from flags as well, but we can assume null or inferred later.
 
     if conflicts:
         profile.status = "needs_review"
@@ -71,6 +97,8 @@ def merge_health_profile(pilgrim):
         "medications_text",
         "status",
         "confidence_score",
+        "height", "weight", "systolic_bp", "diastolic_bp", 
+        "total_cholesterol", "hdl_cholesterol", "smoker", "uses_oxygen",
         "updated_at",
     ])
     return profile
